@@ -1,0 +1,15 @@
+{
+  "name": "survivor.io_data_processing",
+  "version": "1.0.0",
+  "description": "A simple script to process the json files exported from the games data. Helps with making data human readable to allow for creation of data charts and info leaks.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  }
+}
