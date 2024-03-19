@@ -131,4 +131,4 @@ dist
 
 # game files
 /csvs*/*
-!/csvs*/CsvGoHere.json
+!/csvs*/LanguageCsv.json

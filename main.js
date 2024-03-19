@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const inquirer = require('inquirer');
 
 const rewardcsv = path.resolve(__dirname, './csvs/RewardCsv.json');
 const rewardcsv_data = require(rewardcsv);
@@ -23,8 +24,13 @@ const battlepassrewardcsv = path.resolve(__dirname, './csvs/BattlePassRewardCsv.
 const battlepassrewardcsv_data = require(battlepassrewardcsv);
 const collectioncsv = path.resolve(__dirname, './csvs/CollectionCsv.json');
 const collectioncsv_data = require(collectioncsv);
+const guildbossrankcsv = path.resolve(__dirname, './csvs/guildBossRankCsv.json');
+const guildbossrankcsv_data = require(guildbossrankcsv);
+const guildbosscsv = path.resolve(__dirname, './csvs/guildBossCsv.json');
+const guildbosscsv_data = require(guildbosscsv);
 
 
+let data_dic = {};
 let itemcsv_populated = [];
 let rewardcsv_populated = [];
 let languagecsv_populated = [];
@@ -36,10 +42,77 @@ let guildtaskcsv_populated = [];
 let guildshopcsv_populated = [];
 let battlepassrewardcsv_populated = [];
 let collectioncsv_populated = [];
+let guildbossrankcsv_populated = [];
+let guildbosscsv_populated = [];
 
 const searchValueByKey = (array, key, value) => {
     return array.find(item => item[key] === value);
 };
+
+function populateGuildBossRankCsv(){
+    for (let i = 0; i < guildbossrankcsv_data.length; i++) {
+        let tempJson = {};
+        currentItem = guildbossrankcsv_data[i].guildBossRankRow;
+        for (const item in currentItem) {
+            switch (item) {
+                case 'RankReward':
+                    let singleReward = [];
+                    let allReward = [];
+                    for (let x = 0; x < currentItem[item].length; x++){
+                        let currReward = currentItem[item][x]['System.Int32[]'];
+                        let reward = searchValueByKey(rewardcsv_populated, 'id', currReward[2]);
+                        singleReward = reward.reward.slice();
+                        singleReward.unshift(`Rank ${currReward[0]}`, `Clan EXP: ${currReward[3]}`);
+                        allReward.push(singleReward);
+                    }
+                    tempJson[item] = allReward;
+                    break;
+                default:
+                    tempJson[item] = currentItem[item];
+            }
+        }
+        guildbossrankcsv_populated.push(tempJson);
+    }
+}
+
+function populateGuildBossCsv(){
+    for (let i = 0; i < guildbosscsv_data.length; i++) {
+        let tempJson = {};
+        currentItem = guildbosscsv_data[i].guildBossRow;
+        for (const item in currentItem) {
+            switch (item) {
+                case 'MissionReward':
+                    let missionReward = [];
+                    for (let x = 0; x < currentItem[item].length; x++){
+                        let reward = searchValueByKey(rewardcsv_populated, 'id', currentItem[item][x]);
+                        missionReward.push(reward.reward.slice());
+                    }
+                    tempJson[item] = missionReward;
+                    break;
+                case 'BossReward':
+                    let singleReward = [];
+                    let bossReward = [];
+                    for (let x = 0; x < currentItem[item].length; x++){
+                        let currReward = currentItem[item][x]['System.Int32[]'];
+                        let reward = searchValueByKey(rewardcsv_populated, 'id', currReward[1]);
+                        singleReward = reward.reward.slice();
+                        singleReward.unshift(`Medals ${currReward[0]}`);
+                        bossReward.push(singleReward);
+                    }
+                    tempJson[item] = bossReward;
+                    break;
+                case 'AnticheatBossHp':
+                case 'SpecialLimit':
+                case 'AntiCheat1':
+                case 'AntiCheat2':
+                    break;
+                default:
+                    tempJson[item] = currentItem[item];
+            }
+        }
+        guildbosscsv_populated.push(tempJson);
+    }
+}
 
 function populateEchoBattleSubsection2Csv() {
     for (let i = 0; i < echobattlesubsection2csv_data.length; i++) {
@@ -376,18 +449,14 @@ function renameFiles() {
                             console.error('Error writing file:', err);
                             return;
                         }
-                        console.log('Successfully replaced and saved data to file.');
                     });
                     try {
                         const jsonData = JSON.parse(data);
                         const firstKey = Object.keys(jsonData[0])[0];
                         const newName = firstKey.substring(0, firstKey.length - 3).concat("Csv");
-                        console.log('Renaming', file, ':', newName);
                         fs.rename(filePath, path.join('./csvs', newName + '.json'), err => {
                             if (err) {
                                 console.error('Error renaming file:', err);
-                            } else {
-                                console.log(`Renamed ${file} to ${newName}.json`);
                             }
                         });
                     } catch (e) {
@@ -401,7 +470,6 @@ function renameFiles() {
 
 
 // Perform actions
-renameFiles();
 populateEchoBattleSubsection2Csv();
 populateLanguageCsv();
 populateItemCsv();
@@ -413,5 +481,55 @@ populateGuildTaskCsv();
 populateGuildShopCsv();
 populateBattlePassRewardCsv();
 populateCollectionCsv();
+populateGuildBossRankCsv();
+populateGuildBossCsv();
+writeFile(guildbosscsv_populated);
 
-// writeFile(collectioncsv_populated);
+
+function action2() {
+    return 'Function for Action 2 was called';
+}
+
+function action3() {
+    return 'Function for Action 3 was called';
+}
+
+// Menu options
+const menuOptions = [
+    {
+        type: 'list',
+        name: 'action',
+        message: 'Choose an action:',
+        choices: ['Rename Files', 'Action 2', 'Action 3', 'Exit']
+    }
+];
+
+// Start the application
+function start() {
+    inquirer.prompt(menuOptions)
+        .then(answers => {
+            switch (answers.action) {
+                case 'Rename Files':
+                    renameFiles();
+                    console.log("Files have been renamed and regex'd!\n\n");
+                    start();
+                    break;
+                case 'Action 2':
+                    console.log(action2());
+                    start();
+                    break;
+                case 'Action 3':
+                    console.log(action3());
+                    start();
+                    break;
+                case 'Exit':
+                    console.log("Exiting");
+                    return;
+                default:
+                    console.log('Invalid action');
+            }
+        });
+}
+
+// Call the start function to initiate the application
+start();
