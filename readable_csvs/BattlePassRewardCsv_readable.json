@@ -1,0 +1,7892 @@
+[
+    {
+        "ID": 101,
+        "SeasonId": 1,
+        "Level": 1,
+        "Exp": 0,
+        "RewardFree": [
+            "10x Energy"
+        ],
+        "RewardLower": [
+            "1x Tsukuyomi",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1x Tsukuyomi",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 102,
+        "SeasonId": 1,
+        "Level": 2,
+        "Exp": 50,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "600x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 103,
+        "SeasonId": 1,
+        "Level": 3,
+        "Exp": 100,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 104,
+        "SeasonId": 1,
+        "Level": 4,
+        "Exp": 150,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "3x Army Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x Army Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 105,
+        "SeasonId": 1,
+        "Level": 5,
+        "Exp": 200,
+        "RewardFree": [
+            "1x <color=#69D963>Good</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 106,
+        "SeasonId": 1,
+        "Level": 6,
+        "Exp": 250,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "6x Patrol Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "6x Patrol Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 107,
+        "SeasonId": 1,
+        "Level": 7,
+        "Exp": 300,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "600x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 108,
+        "SeasonId": 1,
+        "Level": 8,
+        "Exp": 350,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 109,
+        "SeasonId": 1,
+        "Level": 9,
+        "Exp": 400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "3x Army Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x Army Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 110,
+        "SeasonId": 1,
+        "Level": 10,
+        "Exp": 500,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "3x S Supply Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x S Supply Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 111,
+        "SeasonId": 1,
+        "Level": 11,
+        "Exp": 600,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "6x Patrol Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "6x Patrol Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 112,
+        "SeasonId": 1,
+        "Level": 12,
+        "Exp": 700,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "600x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 113,
+        "SeasonId": 1,
+        "Level": 13,
+        "Exp": 800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 114,
+        "SeasonId": 1,
+        "Level": 14,
+        "Exp": 900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "3x Army Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x Army Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 115,
+        "SeasonId": 1,
+        "Level": 15,
+        "Exp": 1000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "3x S Supply Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x S Supply Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 116,
+        "SeasonId": 1,
+        "Level": 16,
+        "Exp": 1100,
+        "RewardFree": [
+            "3x Patrol Coin"
+        ],
+        "RewardLower": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 117,
+        "SeasonId": 1,
+        "Level": 17,
+        "Exp": 1200,
+        "RewardFree": [
+            "300x Energy Essence"
+        ],
+        "RewardLower": [
+            "1000x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1000x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 118,
+        "SeasonId": 1,
+        "Level": 18,
+        "Exp": 1300,
+        "RewardFree": [
+            "15x Random Design Pack"
+        ],
+        "RewardLower": [
+            "50x Random Design Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "50x Random Design Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 119,
+        "SeasonId": 1,
+        "Level": 19,
+        "Exp": 1400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "3x Army Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x Army Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 120,
+        "SeasonId": 1,
+        "Level": 20,
+        "Exp": 1500,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#D76CFF>Excellent</color> Parts Crate",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1x <color=#D76CFF>Excellent</color> Parts Crate",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 121,
+        "SeasonId": 1,
+        "Level": 21,
+        "Exp": 1600,
+        "RewardFree": [
+            "3x Patrol Coin"
+        ],
+        "RewardLower": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 122,
+        "SeasonId": 1,
+        "Level": 22,
+        "Exp": 1700,
+        "RewardFree": [
+            "300x Energy Essence"
+        ],
+        "RewardLower": [
+            "1000x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1000x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 123,
+        "SeasonId": 1,
+        "Level": 23,
+        "Exp": 1800,
+        "RewardFree": [
+            "1x Revival Coin"
+        ],
+        "RewardLower": [
+            "3x Revival Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x Revival Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 124,
+        "SeasonId": 1,
+        "Level": 24,
+        "Exp": 1900,
+        "RewardFree": [
+            "30x Random Design Pack"
+        ],
+        "RewardLower": [
+            "100x Random Design Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "100x Random Design Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 125,
+        "SeasonId": 1,
+        "Level": 25,
+        "Exp": 2000,
+        "RewardFree": [
+            "2x Army Key"
+        ],
+        "RewardLower": [
+            "6x Army Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "6x Army Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 126,
+        "SeasonId": 1,
+        "Level": 26,
+        "Exp": 2100,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "4x S Supply Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "4x S Supply Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 127,
+        "SeasonId": 1,
+        "Level": 27,
+        "Exp": 2200,
+        "RewardFree": [
+            "3x Patrol Coin"
+        ],
+        "RewardLower": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 128,
+        "SeasonId": 1,
+        "Level": 28,
+        "Exp": 2300,
+        "RewardFree": [
+            "1x Revival Coin"
+        ],
+        "RewardLower": [
+            "3x Revival Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x Revival Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 129,
+        "SeasonId": 1,
+        "Level": 29,
+        "Exp": 2400,
+        "RewardFree": [
+            "400x Energy Essence"
+        ],
+        "RewardLower": [
+            "1200x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1200x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 130,
+        "SeasonId": 1,
+        "Level": 30,
+        "Exp": 2500,
+        "RewardFree": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x Epic Equipment Choice Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1x Epic Equipment Choice Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 201,
+        "SeasonId": 2,
+        "Level": 1,
+        "Exp": 0,
+        "RewardFree": [
+            "10x Energy"
+        ],
+        "RewardLower": [
+            "1x New Spring Look Avatar Frame",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "1x New Spring Look Avatar Frame",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 202,
+        "SeasonId": 2,
+        "Level": 2,
+        "Exp": 50,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "600x Energy Essence",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 203,
+        "SeasonId": 2,
+        "Level": 3,
+        "Exp": 100,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "30x Random Design Pack",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 204,
+        "SeasonId": 2,
+        "Level": 4,
+        "Exp": 150,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "3x Army Key",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "3x Army Key",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 205,
+        "SeasonId": 2,
+        "Level": 5,
+        "Exp": 200,
+        "RewardFree": [
+            "1x <color=#69D963>Good</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x Tsukuyomi Spring Bunny Ears",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "1x Tsukuyomi Spring Bunny Ears",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 206,
+        "SeasonId": 2,
+        "Level": 6,
+        "Exp": 250,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "6x Patrol Coin",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "6x Patrol Coin",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 207,
+        "SeasonId": 2,
+        "Level": 7,
+        "Exp": 300,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "600x Energy Essence",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 208,
+        "SeasonId": 2,
+        "Level": 8,
+        "Exp": 350,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "30x Random Design Pack",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 209,
+        "SeasonId": 2,
+        "Level": 9,
+        "Exp": 400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "3x Army Key",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "3x Army Key",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 210,
+        "SeasonId": 2,
+        "Level": 10,
+        "Exp": 500,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "5x S Supply Key",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 211,
+        "SeasonId": 2,
+        "Level": 11,
+        "Exp": 600,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "6x Patrol Coin",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "6x Patrol Coin",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 212,
+        "SeasonId": 2,
+        "Level": 12,
+        "Exp": 700,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "600x Energy Essence",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 213,
+        "SeasonId": 2,
+        "Level": 13,
+        "Exp": 800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "30x Random Design Pack",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 214,
+        "SeasonId": 2,
+        "Level": 14,
+        "Exp": 900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "3x Army Key",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "3x Army Key",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 215,
+        "SeasonId": 2,
+        "Level": 15,
+        "Exp": 1000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "5x S Supply Key",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 216,
+        "SeasonId": 2,
+        "Level": 16,
+        "Exp": 1100,
+        "RewardFree": [
+            "3x Patrol Coin"
+        ],
+        "RewardLower": [
+            "10x Patrol Coin",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "10x Patrol Coin",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 217,
+        "SeasonId": 2,
+        "Level": 17,
+        "Exp": 1200,
+        "RewardFree": [
+            "300x Energy Essence"
+        ],
+        "RewardLower": [
+            "1000x Energy Essence",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "1000x Energy Essence",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 218,
+        "SeasonId": 2,
+        "Level": 18,
+        "Exp": 1300,
+        "RewardFree": [
+            "15x Random Design Pack"
+        ],
+        "RewardLower": [
+            "50x Random Design Pack",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "50x Random Design Pack",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 219,
+        "SeasonId": 2,
+        "Level": 19,
+        "Exp": 1400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "3x Army Key",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "3x Army Key",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 220,
+        "SeasonId": 2,
+        "Level": 20,
+        "Exp": 1500,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x Tsukuyomi Spring Armor",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "1x Tsukuyomi Spring Armor",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 221,
+        "SeasonId": 2,
+        "Level": 21,
+        "Exp": 1600,
+        "RewardFree": [
+            "3x Patrol Coin"
+        ],
+        "RewardLower": [
+            "10x Patrol Coin",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "10x Patrol Coin",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 222,
+        "SeasonId": 2,
+        "Level": 22,
+        "Exp": 1700,
+        "RewardFree": [
+            "300x Energy Essence"
+        ],
+        "RewardLower": [
+            "1000x Energy Essence",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "1000x Energy Essence",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 223,
+        "SeasonId": 2,
+        "Level": 23,
+        "Exp": 1800,
+        "RewardFree": [
+            "1x Revival Coin"
+        ],
+        "RewardLower": [
+            "5x Revival Coin",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "5x Revival Coin",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 224,
+        "SeasonId": 2,
+        "Level": 24,
+        "Exp": 1900,
+        "RewardFree": [
+            "30x Random Design Pack"
+        ],
+        "RewardLower": [
+            "100x Random Design Pack",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "100x Random Design Pack",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 225,
+        "SeasonId": 2,
+        "Level": 25,
+        "Exp": 2000,
+        "RewardFree": [
+            "2x Army Key"
+        ],
+        "RewardLower": [
+            "6x Army Key",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "6x Army Key",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 226,
+        "SeasonId": 2,
+        "Level": 26,
+        "Exp": 2100,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "5x S Supply Key",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 227,
+        "SeasonId": 2,
+        "Level": 27,
+        "Exp": 2200,
+        "RewardFree": [
+            "3x Patrol Coin"
+        ],
+        "RewardLower": [
+            "10x Patrol Coin",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "10x Patrol Coin",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 228,
+        "SeasonId": 2,
+        "Level": 28,
+        "Exp": 2300,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x Epic Equipment Choice Pack",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "1x Epic Equipment Choice Pack",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 229,
+        "SeasonId": 2,
+        "Level": 29,
+        "Exp": 2400,
+        "RewardFree": [
+            "400x Energy Essence"
+        ],
+        "RewardLower": [
+            "1200x Energy Essence",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "1200x Energy Essence",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 230,
+        "SeasonId": 2,
+        "Level": 30,
+        "Exp": 2500,
+        "RewardFree": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x Tsukuyomi Spring Lantern",
+            "200x Gems"
+        ],
+        "RewardNormal": [
+            "1x Tsukuyomi Spring Lantern",
+            "200x Gems"
+        ]
+    },
+    {
+        "ID": 301,
+        "SeasonId": 3,
+        "Level": 1,
+        "Exp": 0,
+        "RewardFree": [
+            "10x Energy"
+        ],
+        "RewardLower": [
+            "1x Worm",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1x Worm",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 302,
+        "SeasonId": 3,
+        "Level": 2,
+        "Exp": 50,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "600x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 303,
+        "SeasonId": 3,
+        "Level": 3,
+        "Exp": 100,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 304,
+        "SeasonId": 3,
+        "Level": 4,
+        "Exp": 150,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "3x Army Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x Army Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 305,
+        "SeasonId": 3,
+        "Level": 5,
+        "Exp": 200,
+        "RewardFree": [
+            "1x <color=#69D963>Good</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 306,
+        "SeasonId": 3,
+        "Level": 6,
+        "Exp": 250,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "6x Patrol Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "6x Patrol Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 307,
+        "SeasonId": 3,
+        "Level": 7,
+        "Exp": 300,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "600x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 308,
+        "SeasonId": 3,
+        "Level": 8,
+        "Exp": 350,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 309,
+        "SeasonId": 3,
+        "Level": 9,
+        "Exp": 400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "3x Army Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x Army Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 310,
+        "SeasonId": 3,
+        "Level": 10,
+        "Exp": 500,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "3x S Supply Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x S Supply Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 311,
+        "SeasonId": 3,
+        "Level": 11,
+        "Exp": 600,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "6x Patrol Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "6x Patrol Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 312,
+        "SeasonId": 3,
+        "Level": 12,
+        "Exp": 700,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "600x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 313,
+        "SeasonId": 3,
+        "Level": 13,
+        "Exp": 800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 314,
+        "SeasonId": 3,
+        "Level": 14,
+        "Exp": 900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "3x Army Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x Army Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 315,
+        "SeasonId": 3,
+        "Level": 15,
+        "Exp": 1000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "3x S Supply Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x S Supply Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 316,
+        "SeasonId": 3,
+        "Level": 16,
+        "Exp": 1100,
+        "RewardFree": [
+            "3x Patrol Coin"
+        ],
+        "RewardLower": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 317,
+        "SeasonId": 3,
+        "Level": 17,
+        "Exp": 1200,
+        "RewardFree": [
+            "300x Energy Essence"
+        ],
+        "RewardLower": [
+            "1000x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1000x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 318,
+        "SeasonId": 3,
+        "Level": 18,
+        "Exp": 1300,
+        "RewardFree": [
+            "15x Random Design Pack"
+        ],
+        "RewardLower": [
+            "50x Random Design Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "50x Random Design Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 319,
+        "SeasonId": 3,
+        "Level": 19,
+        "Exp": 1400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "3x Army Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x Army Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 320,
+        "SeasonId": 3,
+        "Level": 20,
+        "Exp": 1500,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#D76CFF>Excellent</color> Parts Crate",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1x <color=#D76CFF>Excellent</color> Parts Crate",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 321,
+        "SeasonId": 3,
+        "Level": 21,
+        "Exp": 1600,
+        "RewardFree": [
+            "3x Patrol Coin"
+        ],
+        "RewardLower": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 322,
+        "SeasonId": 3,
+        "Level": 22,
+        "Exp": 1700,
+        "RewardFree": [
+            "300x Energy Essence"
+        ],
+        "RewardLower": [
+            "1000x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1000x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 323,
+        "SeasonId": 3,
+        "Level": 23,
+        "Exp": 1800,
+        "RewardFree": [
+            "1x Revival Coin"
+        ],
+        "RewardLower": [
+            "3x Revival Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x Revival Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 324,
+        "SeasonId": 3,
+        "Level": 24,
+        "Exp": 1900,
+        "RewardFree": [
+            "30x Random Design Pack"
+        ],
+        "RewardLower": [
+            "100x Random Design Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "100x Random Design Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 325,
+        "SeasonId": 3,
+        "Level": 25,
+        "Exp": 2000,
+        "RewardFree": [
+            "2x Army Key"
+        ],
+        "RewardLower": [
+            "6x Army Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "6x Army Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 326,
+        "SeasonId": 3,
+        "Level": 26,
+        "Exp": 2100,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "4x S Supply Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "4x S Supply Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 327,
+        "SeasonId": 3,
+        "Level": 27,
+        "Exp": 2200,
+        "RewardFree": [
+            "3x Patrol Coin"
+        ],
+        "RewardLower": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 328,
+        "SeasonId": 3,
+        "Level": 28,
+        "Exp": 2300,
+        "RewardFree": [
+            "1x Revival Coin"
+        ],
+        "RewardLower": [
+            "3x Revival Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x Revival Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 329,
+        "SeasonId": 3,
+        "Level": 29,
+        "Exp": 2400,
+        "RewardFree": [
+            "400x Energy Essence"
+        ],
+        "RewardLower": [
+            "1200x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1200x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 330,
+        "SeasonId": 3,
+        "Level": 30,
+        "Exp": 2500,
+        "RewardFree": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x Epic Equipment Choice Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1x Epic Equipment Choice Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 401,
+        "SeasonId": 4,
+        "Level": 1,
+        "Exp": 0,
+        "RewardFree": [
+            "10x Energy"
+        ],
+        "RewardLower": [
+            "1x Worm's Dapper Hat",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1x Worm's Dapper Hat",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 402,
+        "SeasonId": 4,
+        "Level": 2,
+        "Exp": 50,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "600x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 403,
+        "SeasonId": 4,
+        "Level": 3,
+        "Exp": 100,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 404,
+        "SeasonId": 4,
+        "Level": 4,
+        "Exp": 150,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "3x Army Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x Army Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 405,
+        "SeasonId": 4,
+        "Level": 5,
+        "Exp": 200,
+        "RewardFree": [
+            "1x <color=#69D963>Good</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 406,
+        "SeasonId": 4,
+        "Level": 6,
+        "Exp": 250,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "6x Patrol Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "6x Patrol Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 407,
+        "SeasonId": 4,
+        "Level": 7,
+        "Exp": 300,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "600x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 408,
+        "SeasonId": 4,
+        "Level": 8,
+        "Exp": 350,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 409,
+        "SeasonId": 4,
+        "Level": 9,
+        "Exp": 400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "3x Army Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x Army Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 410,
+        "SeasonId": 4,
+        "Level": 10,
+        "Exp": 500,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "1x Worm's Dapper Coat",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1x Worm's Dapper Coat",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 411,
+        "SeasonId": 4,
+        "Level": 11,
+        "Exp": 600,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "6x Patrol Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "6x Patrol Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 412,
+        "SeasonId": 4,
+        "Level": 12,
+        "Exp": 700,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "600x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 413,
+        "SeasonId": 4,
+        "Level": 13,
+        "Exp": 800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 414,
+        "SeasonId": 4,
+        "Level": 14,
+        "Exp": 900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "3x Army Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x Army Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 415,
+        "SeasonId": 4,
+        "Level": 15,
+        "Exp": 1000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "5x S Supply Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 416,
+        "SeasonId": 4,
+        "Level": 16,
+        "Exp": 1100,
+        "RewardFree": [
+            "3x Patrol Coin"
+        ],
+        "RewardLower": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 417,
+        "SeasonId": 4,
+        "Level": 17,
+        "Exp": 1200,
+        "RewardFree": [
+            "300x Energy Essence"
+        ],
+        "RewardLower": [
+            "1000x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1000x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 418,
+        "SeasonId": 4,
+        "Level": 18,
+        "Exp": 1300,
+        "RewardFree": [
+            "15x Random Design Pack"
+        ],
+        "RewardLower": [
+            "50x Random Design Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "50x Random Design Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 419,
+        "SeasonId": 4,
+        "Level": 19,
+        "Exp": 1400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "3x Army Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x Army Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 420,
+        "SeasonId": 4,
+        "Level": 20,
+        "Exp": 1500,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#D76CFF>Excellent</color> Parts Crate",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1x <color=#D76CFF>Excellent</color> Parts Crate",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 421,
+        "SeasonId": 4,
+        "Level": 21,
+        "Exp": 1600,
+        "RewardFree": [
+            "3x Patrol Coin"
+        ],
+        "RewardLower": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 422,
+        "SeasonId": 4,
+        "Level": 22,
+        "Exp": 1700,
+        "RewardFree": [
+            "300x Energy Essence"
+        ],
+        "RewardLower": [
+            "1000x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1000x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 423,
+        "SeasonId": 4,
+        "Level": 23,
+        "Exp": 1800,
+        "RewardFree": [
+            "1x Revival Coin"
+        ],
+        "RewardLower": [
+            "1x Worm's Mystique Staff",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1x Worm's Mystique Staff",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 424,
+        "SeasonId": 4,
+        "Level": 24,
+        "Exp": 1900,
+        "RewardFree": [
+            "30x Random Design Pack"
+        ],
+        "RewardLower": [
+            "100x Random Design Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "100x Random Design Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 425,
+        "SeasonId": 4,
+        "Level": 25,
+        "Exp": 2000,
+        "RewardFree": [
+            "2x Army Key"
+        ],
+        "RewardLower": [
+            "6x Army Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "6x Army Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 426,
+        "SeasonId": 4,
+        "Level": 26,
+        "Exp": 2100,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "10x S Supply Key",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "10x S Supply Key",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 427,
+        "SeasonId": 4,
+        "Level": 27,
+        "Exp": 2200,
+        "RewardFree": [
+            "3x Patrol Coin"
+        ],
+        "RewardLower": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "10x Patrol Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 428,
+        "SeasonId": 4,
+        "Level": 28,
+        "Exp": 2300,
+        "RewardFree": [
+            "1x Revival Coin"
+        ],
+        "RewardLower": [
+            "3x Revival Coin",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "3x Revival Coin",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 429,
+        "SeasonId": 4,
+        "Level": 29,
+        "Exp": 2400,
+        "RewardFree": [
+            "400x Energy Essence"
+        ],
+        "RewardLower": [
+            "1200x Energy Essence",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1200x Energy Essence",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 430,
+        "SeasonId": 4,
+        "Level": 30,
+        "Exp": 2500,
+        "RewardFree": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x Epic Equipment Choice Pack",
+            "100x Gems"
+        ],
+        "RewardNormal": [
+            "1x Epic Equipment Choice Pack",
+            "100x Gems"
+        ]
+    },
+    {
+        "ID": 501,
+        "SeasonId": 5,
+        "Level": 1,
+        "Exp": 0,
+        "RewardFree": [
+            "10x Energy"
+        ],
+        "RewardLower": [
+            "10x King Shard"
+        ],
+        "RewardNormal": [
+            "1x King"
+        ]
+    },
+    {
+        "ID": 502,
+        "SeasonId": 5,
+        "Level": 2,
+        "Exp": 50,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 503,
+        "SeasonId": 5,
+        "Level": 3,
+        "Exp": 100,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 504,
+        "SeasonId": 5,
+        "Level": 4,
+        "Exp": 150,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3x Army Key"
+        ]
+    },
+    {
+        "ID": 505,
+        "SeasonId": 5,
+        "Level": 5,
+        "Exp": 200,
+        "RewardFree": [
+            "1x <color=#69D963>Good</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Better Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 506,
+        "SeasonId": 5,
+        "Level": 6,
+        "Exp": 250,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 507,
+        "SeasonId": 5,
+        "Level": 7,
+        "Exp": 300,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 508,
+        "SeasonId": 5,
+        "Level": 8,
+        "Exp": 350,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 509,
+        "SeasonId": 5,
+        "Level": 9,
+        "Exp": 400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 510,
+        "SeasonId": 5,
+        "Level": 10,
+        "Exp": 500,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "15x King Shard"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 511,
+        "SeasonId": 5,
+        "Level": 11,
+        "Exp": 600,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 512,
+        "SeasonId": 5,
+        "Level": 12,
+        "Exp": 700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 513,
+        "SeasonId": 5,
+        "Level": 13,
+        "Exp": 800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 514,
+        "SeasonId": 5,
+        "Level": 14,
+        "Exp": 900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 515,
+        "SeasonId": 5,
+        "Level": 15,
+        "Exp": 1000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "2x S Supply Key"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 516,
+        "SeasonId": 5,
+        "Level": 16,
+        "Exp": 1100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 517,
+        "SeasonId": 5,
+        "Level": 17,
+        "Exp": 1200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 518,
+        "SeasonId": 5,
+        "Level": 18,
+        "Exp": 1300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 519,
+        "SeasonId": 5,
+        "Level": 19,
+        "Exp": 1400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 520,
+        "SeasonId": 5,
+        "Level": 20,
+        "Exp": 1500,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "15x King Shard"
+        ],
+        "RewardNormal": [
+            "1x Excellent Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 521,
+        "SeasonId": 5,
+        "Level": 21,
+        "Exp": 1600,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 522,
+        "SeasonId": 5,
+        "Level": 22,
+        "Exp": 1700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 523,
+        "SeasonId": 5,
+        "Level": 23,
+        "Exp": 1800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 524,
+        "SeasonId": 5,
+        "Level": 24,
+        "Exp": 1900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 525,
+        "SeasonId": 5,
+        "Level": 25,
+        "Exp": 2000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "2x S Supply Key"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 526,
+        "SeasonId": 5,
+        "Level": 26,
+        "Exp": 2100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 527,
+        "SeasonId": 5,
+        "Level": 27,
+        "Exp": 2200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 528,
+        "SeasonId": 5,
+        "Level": 28,
+        "Exp": 2300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 529,
+        "SeasonId": 5,
+        "Level": 29,
+        "Exp": 2400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 530,
+        "SeasonId": 5,
+        "Level": 30,
+        "Exp": 2500,
+        "RewardFree": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardNormal": [
+            "1x <color=#D76CFF>S Grade Excellent</color> Supply Crate"
+        ]
+    },
+    {
+        "ID": 601,
+        "SeasonId": 6,
+        "Level": 1,
+        "Exp": 0,
+        "RewardFree": [
+            "10x Energy"
+        ],
+        "RewardLower": [
+            "10x King Shard"
+        ],
+        "RewardNormal": [
+            "1x King"
+        ]
+    },
+    {
+        "ID": 602,
+        "SeasonId": 6,
+        "Level": 2,
+        "Exp": 50,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 603,
+        "SeasonId": 6,
+        "Level": 3,
+        "Exp": 100,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 604,
+        "SeasonId": 6,
+        "Level": 4,
+        "Exp": 150,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3x Army Key"
+        ]
+    },
+    {
+        "ID": 605,
+        "SeasonId": 6,
+        "Level": 5,
+        "Exp": 200,
+        "RewardFree": [
+            "1x <color=#69D963>Good</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Better Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 606,
+        "SeasonId": 6,
+        "Level": 6,
+        "Exp": 250,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 607,
+        "SeasonId": 6,
+        "Level": 7,
+        "Exp": 300,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 608,
+        "SeasonId": 6,
+        "Level": 8,
+        "Exp": 350,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 609,
+        "SeasonId": 6,
+        "Level": 9,
+        "Exp": 400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 610,
+        "SeasonId": 6,
+        "Level": 10,
+        "Exp": 500,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "15x King Shard"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 611,
+        "SeasonId": 6,
+        "Level": 11,
+        "Exp": 600,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 612,
+        "SeasonId": 6,
+        "Level": 12,
+        "Exp": 700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 613,
+        "SeasonId": 6,
+        "Level": 13,
+        "Exp": 800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 614,
+        "SeasonId": 6,
+        "Level": 14,
+        "Exp": 900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 615,
+        "SeasonId": 6,
+        "Level": 15,
+        "Exp": 1000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "2x S Supply Key"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 616,
+        "SeasonId": 6,
+        "Level": 16,
+        "Exp": 1100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 617,
+        "SeasonId": 6,
+        "Level": 17,
+        "Exp": 1200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 618,
+        "SeasonId": 6,
+        "Level": 18,
+        "Exp": 1300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 619,
+        "SeasonId": 6,
+        "Level": 19,
+        "Exp": 1400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 620,
+        "SeasonId": 6,
+        "Level": 20,
+        "Exp": 1500,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "15x King Shard"
+        ],
+        "RewardNormal": [
+            "1x Excellent Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 621,
+        "SeasonId": 6,
+        "Level": 21,
+        "Exp": 1600,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 622,
+        "SeasonId": 6,
+        "Level": 22,
+        "Exp": 1700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 623,
+        "SeasonId": 6,
+        "Level": 23,
+        "Exp": 1800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 624,
+        "SeasonId": 6,
+        "Level": 24,
+        "Exp": 1900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 625,
+        "SeasonId": 6,
+        "Level": 25,
+        "Exp": 2000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "2x S Supply Key"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 626,
+        "SeasonId": 6,
+        "Level": 26,
+        "Exp": 2100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 627,
+        "SeasonId": 6,
+        "Level": 27,
+        "Exp": 2200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 628,
+        "SeasonId": 6,
+        "Level": 28,
+        "Exp": 2300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 629,
+        "SeasonId": 6,
+        "Level": 29,
+        "Exp": 2400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 630,
+        "SeasonId": 6,
+        "Level": 30,
+        "Exp": 2500,
+        "RewardFree": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardNormal": [
+            "1x <color=#D76CFF>S Grade Excellent</color> Supply Crate"
+        ]
+    },
+    {
+        "ID": 701,
+        "SeasonId": 7,
+        "Level": 1,
+        "Exp": 0,
+        "RewardFree": [
+            "10x Energy"
+        ],
+        "RewardLower": [
+            "10x Tsukuyomi Shard"
+        ],
+        "RewardNormal": [
+            "1x Tsukuyomi"
+        ]
+    },
+    {
+        "ID": 702,
+        "SeasonId": 7,
+        "Level": 2,
+        "Exp": 50,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 703,
+        "SeasonId": 7,
+        "Level": 3,
+        "Exp": 100,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 704,
+        "SeasonId": 7,
+        "Level": 4,
+        "Exp": 150,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3x Army Key"
+        ]
+    },
+    {
+        "ID": 705,
+        "SeasonId": 7,
+        "Level": 5,
+        "Exp": 200,
+        "RewardFree": [
+            "1x <color=#69D963>Good</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Better Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 706,
+        "SeasonId": 7,
+        "Level": 6,
+        "Exp": 250,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 707,
+        "SeasonId": 7,
+        "Level": 7,
+        "Exp": 300,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 708,
+        "SeasonId": 7,
+        "Level": 8,
+        "Exp": 350,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 709,
+        "SeasonId": 7,
+        "Level": 9,
+        "Exp": 400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 710,
+        "SeasonId": 7,
+        "Level": 10,
+        "Exp": 500,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "15x Tsukuyomi Shard"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 711,
+        "SeasonId": 7,
+        "Level": 11,
+        "Exp": 600,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 712,
+        "SeasonId": 7,
+        "Level": 12,
+        "Exp": 700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 713,
+        "SeasonId": 7,
+        "Level": 13,
+        "Exp": 800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 714,
+        "SeasonId": 7,
+        "Level": 14,
+        "Exp": 900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 715,
+        "SeasonId": 7,
+        "Level": 15,
+        "Exp": 1000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "2x S Supply Key"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 716,
+        "SeasonId": 7,
+        "Level": 16,
+        "Exp": 1100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 717,
+        "SeasonId": 7,
+        "Level": 17,
+        "Exp": 1200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 718,
+        "SeasonId": 7,
+        "Level": 18,
+        "Exp": 1300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 719,
+        "SeasonId": 7,
+        "Level": 19,
+        "Exp": 1400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 720,
+        "SeasonId": 7,
+        "Level": 20,
+        "Exp": 1500,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "15x Tsukuyomi Shard"
+        ],
+        "RewardNormal": [
+            "1x Excellent Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 721,
+        "SeasonId": 7,
+        "Level": 21,
+        "Exp": 1600,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 722,
+        "SeasonId": 7,
+        "Level": 22,
+        "Exp": 1700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 723,
+        "SeasonId": 7,
+        "Level": 23,
+        "Exp": 1800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 724,
+        "SeasonId": 7,
+        "Level": 24,
+        "Exp": 1900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 725,
+        "SeasonId": 7,
+        "Level": 25,
+        "Exp": 2000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "2x S Supply Key"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 726,
+        "SeasonId": 7,
+        "Level": 26,
+        "Exp": 2100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 727,
+        "SeasonId": 7,
+        "Level": 27,
+        "Exp": 2200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 728,
+        "SeasonId": 7,
+        "Level": 28,
+        "Exp": 2300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 729,
+        "SeasonId": 7,
+        "Level": 29,
+        "Exp": 2400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 730,
+        "SeasonId": 7,
+        "Level": 30,
+        "Exp": 2500,
+        "RewardFree": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardNormal": [
+            "1x <color=#D76CFF>S Grade Excellent</color> Supply Crate"
+        ]
+    },
+    {
+        "ID": 801,
+        "SeasonId": 8,
+        "Level": 1,
+        "Exp": 0,
+        "RewardFree": [
+            "10x Energy"
+        ],
+        "RewardLower": [
+            "10x Survivor Starter Squad Choice Shard"
+        ],
+        "RewardNormal": [
+            "80x Survivor Starter Squad Choice Shard"
+        ]
+    },
+    {
+        "ID": 802,
+        "SeasonId": 8,
+        "Level": 2,
+        "Exp": 50,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 803,
+        "SeasonId": 8,
+        "Level": 3,
+        "Exp": 100,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 804,
+        "SeasonId": 8,
+        "Level": 4,
+        "Exp": 150,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3x Army Key"
+        ]
+    },
+    {
+        "ID": 805,
+        "SeasonId": 8,
+        "Level": 5,
+        "Exp": 200,
+        "RewardFree": [
+            "1x <color=#69D963>Good</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Better Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 806,
+        "SeasonId": 8,
+        "Level": 6,
+        "Exp": 250,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 807,
+        "SeasonId": 8,
+        "Level": 7,
+        "Exp": 300,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 808,
+        "SeasonId": 8,
+        "Level": 8,
+        "Exp": 350,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 809,
+        "SeasonId": 8,
+        "Level": 9,
+        "Exp": 400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 810,
+        "SeasonId": 8,
+        "Level": 10,
+        "Exp": 500,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "15x Survivor Starter Squad Choice Shard"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 811,
+        "SeasonId": 8,
+        "Level": 11,
+        "Exp": 600,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 812,
+        "SeasonId": 8,
+        "Level": 12,
+        "Exp": 700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 813,
+        "SeasonId": 8,
+        "Level": 13,
+        "Exp": 800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 814,
+        "SeasonId": 8,
+        "Level": 14,
+        "Exp": 900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 815,
+        "SeasonId": 8,
+        "Level": 15,
+        "Exp": 1000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "2x S Supply Key"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 816,
+        "SeasonId": 8,
+        "Level": 16,
+        "Exp": 1100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 817,
+        "SeasonId": 8,
+        "Level": 17,
+        "Exp": 1200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 818,
+        "SeasonId": 8,
+        "Level": 18,
+        "Exp": 1300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 819,
+        "SeasonId": 8,
+        "Level": 19,
+        "Exp": 1400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 820,
+        "SeasonId": 8,
+        "Level": 20,
+        "Exp": 1500,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "15x Survivor Starter Squad Choice Shard"
+        ],
+        "RewardNormal": [
+            "1x Excellent Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 821,
+        "SeasonId": 8,
+        "Level": 21,
+        "Exp": 1600,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 822,
+        "SeasonId": 8,
+        "Level": 22,
+        "Exp": 1700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 823,
+        "SeasonId": 8,
+        "Level": 23,
+        "Exp": 1800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 824,
+        "SeasonId": 8,
+        "Level": 24,
+        "Exp": 1900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 825,
+        "SeasonId": 8,
+        "Level": 25,
+        "Exp": 2000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "2x S Supply Key"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 826,
+        "SeasonId": 8,
+        "Level": 26,
+        "Exp": 2100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 827,
+        "SeasonId": 8,
+        "Level": 27,
+        "Exp": 2200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 828,
+        "SeasonId": 8,
+        "Level": 28,
+        "Exp": 2300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 829,
+        "SeasonId": 8,
+        "Level": 29,
+        "Exp": 2400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 830,
+        "SeasonId": 8,
+        "Level": 30,
+        "Exp": 2500,
+        "RewardFree": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardNormal": [
+            "1x <color=#D76CFF>S Grade Excellent</color> Supply Crate"
+        ]
+    },
+    {
+        "ID": 901,
+        "SeasonId": 9,
+        "Level": 1,
+        "Exp": 0,
+        "RewardFree": [
+            "10x Energy"
+        ],
+        "RewardLower": [
+            "10x Wesson Shard"
+        ],
+        "RewardNormal": [
+            "1x Wesson"
+        ]
+    },
+    {
+        "ID": 902,
+        "SeasonId": 9,
+        "Level": 2,
+        "Exp": 50,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 903,
+        "SeasonId": 9,
+        "Level": 3,
+        "Exp": 100,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 904,
+        "SeasonId": 9,
+        "Level": 4,
+        "Exp": 150,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3x Army Key"
+        ]
+    },
+    {
+        "ID": 905,
+        "SeasonId": 9,
+        "Level": 5,
+        "Exp": 200,
+        "RewardFree": [
+            "1x <color=#69D963>Good</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Better Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 906,
+        "SeasonId": 9,
+        "Level": 6,
+        "Exp": 250,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 907,
+        "SeasonId": 9,
+        "Level": 7,
+        "Exp": 300,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 908,
+        "SeasonId": 9,
+        "Level": 8,
+        "Exp": 350,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 909,
+        "SeasonId": 9,
+        "Level": 9,
+        "Exp": 400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 910,
+        "SeasonId": 9,
+        "Level": 10,
+        "Exp": 500,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "15x Wesson Shard"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 911,
+        "SeasonId": 9,
+        "Level": 11,
+        "Exp": 600,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 912,
+        "SeasonId": 9,
+        "Level": 12,
+        "Exp": 700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 913,
+        "SeasonId": 9,
+        "Level": 13,
+        "Exp": 800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 914,
+        "SeasonId": 9,
+        "Level": 14,
+        "Exp": 900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 915,
+        "SeasonId": 9,
+        "Level": 15,
+        "Exp": 1000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "2x S Supply Key"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 916,
+        "SeasonId": 9,
+        "Level": 16,
+        "Exp": 1100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 917,
+        "SeasonId": 9,
+        "Level": 17,
+        "Exp": 1200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 918,
+        "SeasonId": 9,
+        "Level": 18,
+        "Exp": 1300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 919,
+        "SeasonId": 9,
+        "Level": 19,
+        "Exp": 1400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 920,
+        "SeasonId": 9,
+        "Level": 20,
+        "Exp": 1500,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "15x Wesson Shard"
+        ],
+        "RewardNormal": [
+            "1x Excellent Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 921,
+        "SeasonId": 9,
+        "Level": 21,
+        "Exp": 1600,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 922,
+        "SeasonId": 9,
+        "Level": 22,
+        "Exp": 1700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 923,
+        "SeasonId": 9,
+        "Level": 23,
+        "Exp": 1800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 924,
+        "SeasonId": 9,
+        "Level": 24,
+        "Exp": 1900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 925,
+        "SeasonId": 9,
+        "Level": 25,
+        "Exp": 2000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "2x S Supply Key"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 926,
+        "SeasonId": 9,
+        "Level": 26,
+        "Exp": 2100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 927,
+        "SeasonId": 9,
+        "Level": 27,
+        "Exp": 2200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 928,
+        "SeasonId": 9,
+        "Level": 28,
+        "Exp": 2300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 929,
+        "SeasonId": 9,
+        "Level": 29,
+        "Exp": 2400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 930,
+        "SeasonId": 9,
+        "Level": 30,
+        "Exp": 2500,
+        "RewardFree": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardNormal": [
+            "1x <color=#D76CFF>S Grade Excellent</color> Supply Crate"
+        ]
+    },
+    {
+        "ID": 1001,
+        "SeasonId": 10,
+        "Level": 1,
+        "Exp": 0,
+        "RewardFree": [
+            "10x Energy"
+        ],
+        "RewardLower": [
+            "10x Wesson Shard"
+        ],
+        "RewardNormal": [
+            "1x Wesson"
+        ]
+    },
+    {
+        "ID": 1002,
+        "SeasonId": 10,
+        "Level": 2,
+        "Exp": 50,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1003,
+        "SeasonId": 10,
+        "Level": 3,
+        "Exp": 100,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1004,
+        "SeasonId": 10,
+        "Level": 4,
+        "Exp": 150,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3x Army Key"
+        ]
+    },
+    {
+        "ID": 1005,
+        "SeasonId": 10,
+        "Level": 5,
+        "Exp": 200,
+        "RewardFree": [
+            "1x <color=#69D963>Good</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Better Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1006,
+        "SeasonId": 10,
+        "Level": 6,
+        "Exp": 250,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1007,
+        "SeasonId": 10,
+        "Level": 7,
+        "Exp": 300,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 1008,
+        "SeasonId": 10,
+        "Level": 8,
+        "Exp": 350,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1009,
+        "SeasonId": 10,
+        "Level": 9,
+        "Exp": 400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 1010,
+        "SeasonId": 10,
+        "Level": 10,
+        "Exp": 500,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "15x Wesson Shard"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 1011,
+        "SeasonId": 10,
+        "Level": 11,
+        "Exp": 600,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1012,
+        "SeasonId": 10,
+        "Level": 12,
+        "Exp": 700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 1013,
+        "SeasonId": 10,
+        "Level": 13,
+        "Exp": 800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1014,
+        "SeasonId": 10,
+        "Level": 14,
+        "Exp": 900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 1015,
+        "SeasonId": 10,
+        "Level": 15,
+        "Exp": 1000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "2x S Supply Key"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 1016,
+        "SeasonId": 10,
+        "Level": 16,
+        "Exp": 1100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1017,
+        "SeasonId": 10,
+        "Level": 17,
+        "Exp": 1200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 1018,
+        "SeasonId": 10,
+        "Level": 18,
+        "Exp": 1300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1019,
+        "SeasonId": 10,
+        "Level": 19,
+        "Exp": 1400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 1020,
+        "SeasonId": 10,
+        "Level": 20,
+        "Exp": 1500,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "15x Wesson Shard"
+        ],
+        "RewardNormal": [
+            "1x Excellent Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1021,
+        "SeasonId": 10,
+        "Level": 21,
+        "Exp": 1600,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1022,
+        "SeasonId": 10,
+        "Level": 22,
+        "Exp": 1700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 1023,
+        "SeasonId": 10,
+        "Level": 23,
+        "Exp": 1800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1024,
+        "SeasonId": 10,
+        "Level": 24,
+        "Exp": 1900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 1025,
+        "SeasonId": 10,
+        "Level": 25,
+        "Exp": 2000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "2x S Supply Key"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 1026,
+        "SeasonId": 10,
+        "Level": 26,
+        "Exp": 2100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1027,
+        "SeasonId": 10,
+        "Level": 27,
+        "Exp": 2200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 1028,
+        "SeasonId": 10,
+        "Level": 28,
+        "Exp": 2300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1029,
+        "SeasonId": 10,
+        "Level": 29,
+        "Exp": 2400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 1030,
+        "SeasonId": 10,
+        "Level": 30,
+        "Exp": 2500,
+        "RewardFree": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardNormal": [
+            "1x <color=#D76CFF>S Grade Excellent</color> Supply Crate"
+        ]
+    },
+    {
+        "ID": 1101,
+        "SeasonId": 11,
+        "Level": 1,
+        "Exp": 0,
+        "RewardFree": [
+            "10x Energy"
+        ],
+        "RewardLower": [
+            "10x Yelena Shard"
+        ],
+        "RewardNormal": [
+            "1x Yelena"
+        ]
+    },
+    {
+        "ID": 1102,
+        "SeasonId": 11,
+        "Level": 2,
+        "Exp": 50,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1103,
+        "SeasonId": 11,
+        "Level": 3,
+        "Exp": 100,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1104,
+        "SeasonId": 11,
+        "Level": 4,
+        "Exp": 150,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3x Army Key"
+        ]
+    },
+    {
+        "ID": 1105,
+        "SeasonId": 11,
+        "Level": 5,
+        "Exp": 200,
+        "RewardFree": [
+            "1x <color=#69D963>Good</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Better Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1106,
+        "SeasonId": 11,
+        "Level": 6,
+        "Exp": 250,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1107,
+        "SeasonId": 11,
+        "Level": 7,
+        "Exp": 300,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 1108,
+        "SeasonId": 11,
+        "Level": 8,
+        "Exp": 350,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1109,
+        "SeasonId": 11,
+        "Level": 9,
+        "Exp": 400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 1110,
+        "SeasonId": 11,
+        "Level": 10,
+        "Exp": 500,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "15x Yelena Shard"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 1111,
+        "SeasonId": 11,
+        "Level": 11,
+        "Exp": 600,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1112,
+        "SeasonId": 11,
+        "Level": 12,
+        "Exp": 700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 1113,
+        "SeasonId": 11,
+        "Level": 13,
+        "Exp": 800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1114,
+        "SeasonId": 11,
+        "Level": 14,
+        "Exp": 900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 1115,
+        "SeasonId": 11,
+        "Level": 15,
+        "Exp": 1000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "2x S Supply Key"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 1116,
+        "SeasonId": 11,
+        "Level": 16,
+        "Exp": 1100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1117,
+        "SeasonId": 11,
+        "Level": 17,
+        "Exp": 1200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 1118,
+        "SeasonId": 11,
+        "Level": 18,
+        "Exp": 1300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1119,
+        "SeasonId": 11,
+        "Level": 19,
+        "Exp": 1400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 1120,
+        "SeasonId": 11,
+        "Level": 20,
+        "Exp": 1500,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "15x Yelena Shard"
+        ],
+        "RewardNormal": [
+            "1x Excellent Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1121,
+        "SeasonId": 11,
+        "Level": 21,
+        "Exp": 1600,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1122,
+        "SeasonId": 11,
+        "Level": 22,
+        "Exp": 1700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 1123,
+        "SeasonId": 11,
+        "Level": 23,
+        "Exp": 1800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1124,
+        "SeasonId": 11,
+        "Level": 24,
+        "Exp": 1900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 1125,
+        "SeasonId": 11,
+        "Level": 25,
+        "Exp": 2000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "2x S Supply Key"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 1126,
+        "SeasonId": 11,
+        "Level": 26,
+        "Exp": 2100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1127,
+        "SeasonId": 11,
+        "Level": 27,
+        "Exp": 2200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 1128,
+        "SeasonId": 11,
+        "Level": 28,
+        "Exp": 2300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1129,
+        "SeasonId": 11,
+        "Level": 29,
+        "Exp": 2400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 1130,
+        "SeasonId": 11,
+        "Level": 30,
+        "Exp": 2500,
+        "RewardFree": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardNormal": [
+            "1x <color=#D76CFF>S Grade Excellent</color> Supply Crate"
+        ]
+    },
+    {
+        "ID": 1201,
+        "SeasonId": 12,
+        "Level": 1,
+        "Exp": 0,
+        "RewardFree": [
+            "10x Energy"
+        ],
+        "RewardLower": [
+            "10x Yelena Shard"
+        ],
+        "RewardNormal": [
+            "1x Yelena"
+        ]
+    },
+    {
+        "ID": 1202,
+        "SeasonId": 12,
+        "Level": 2,
+        "Exp": 50,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1203,
+        "SeasonId": 12,
+        "Level": 3,
+        "Exp": 100,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "30x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1204,
+        "SeasonId": 12,
+        "Level": 4,
+        "Exp": 150,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3x Army Key"
+        ]
+    },
+    {
+        "ID": 1205,
+        "SeasonId": 12,
+        "Level": 5,
+        "Exp": 200,
+        "RewardFree": [
+            "1x <color=#69D963>Good</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Better Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1206,
+        "SeasonId": 12,
+        "Level": 6,
+        "Exp": 250,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1207,
+        "SeasonId": 12,
+        "Level": 7,
+        "Exp": 300,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 1208,
+        "SeasonId": 12,
+        "Level": 8,
+        "Exp": 350,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1209,
+        "SeasonId": 12,
+        "Level": 9,
+        "Exp": 400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "300x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 1210,
+        "SeasonId": 12,
+        "Level": 10,
+        "Exp": 500,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "15x Yelena Shard"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 1211,
+        "SeasonId": 12,
+        "Level": 11,
+        "Exp": 600,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "1500x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1212,
+        "SeasonId": 12,
+        "Level": 12,
+        "Exp": 700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 1213,
+        "SeasonId": 12,
+        "Level": 13,
+        "Exp": 800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1214,
+        "SeasonId": 12,
+        "Level": 14,
+        "Exp": 900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "400x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 1215,
+        "SeasonId": 12,
+        "Level": 15,
+        "Exp": 1000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "2x S Supply Key"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 1216,
+        "SeasonId": 12,
+        "Level": 16,
+        "Exp": 1100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1217,
+        "SeasonId": 12,
+        "Level": 17,
+        "Exp": 1200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 1218,
+        "SeasonId": 12,
+        "Level": 18,
+        "Exp": 1300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1219,
+        "SeasonId": 12,
+        "Level": 19,
+        "Exp": 1400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "500x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 1220,
+        "SeasonId": 12,
+        "Level": 20,
+        "Exp": 1500,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "15x Yelena Shard"
+        ],
+        "RewardNormal": [
+            "1x Excellent Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1221,
+        "SeasonId": 12,
+        "Level": 21,
+        "Exp": 1600,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1222,
+        "SeasonId": 12,
+        "Level": 22,
+        "Exp": 1700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 1223,
+        "SeasonId": 12,
+        "Level": 23,
+        "Exp": 1800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1224,
+        "SeasonId": 12,
+        "Level": 24,
+        "Exp": 1900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 1225,
+        "SeasonId": 12,
+        "Level": 25,
+        "Exp": 2000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "2x S Supply Key"
+        ],
+        "RewardNormal": [
+            "5x S Supply Key"
+        ]
+    },
+    {
+        "ID": 1226,
+        "SeasonId": 12,
+        "Level": 26,
+        "Exp": 2100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "2000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1227,
+        "SeasonId": 12,
+        "Level": 27,
+        "Exp": 2200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8x Patrol Coin"
+        ]
+    },
+    {
+        "ID": 1228,
+        "SeasonId": 12,
+        "Level": 28,
+        "Exp": 2300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "40x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1229,
+        "SeasonId": 12,
+        "Level": 29,
+        "Exp": 2400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "600x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Army Key"
+        ]
+    },
+    {
+        "ID": 1230,
+        "SeasonId": 12,
+        "Level": 30,
+        "Exp": 2500,
+        "RewardFree": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardNormal": [
+            "1x <color=#D76CFF>S Grade Excellent</color> Supply Crate"
+        ]
+    },
+    {
+        "ID": 1301,
+        "SeasonId": 13,
+        "Level": 1,
+        "Exp": 0,
+        "RewardFree": [
+            "10x Energy"
+        ],
+        "RewardLower": [
+            "10x Master Yang Shard"
+        ],
+        "RewardNormal": [
+            "10x Master Yang Shard"
+        ]
+    },
+    {
+        "ID": 1302,
+        "SeasonId": 13,
+        "Level": 2,
+        "Exp": 50,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1303,
+        "SeasonId": 13,
+        "Level": 3,
+        "Exp": 100,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "50x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1304,
+        "SeasonId": 13,
+        "Level": 4,
+        "Exp": 150,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1305,
+        "SeasonId": 13,
+        "Level": 5,
+        "Exp": 200,
+        "RewardFree": [
+            "1x <color=#69D963>Good</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Excellent Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1306,
+        "SeasonId": 13,
+        "Level": 6,
+        "Exp": 250,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1307,
+        "SeasonId": 13,
+        "Level": 7,
+        "Exp": 300,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1308,
+        "SeasonId": 13,
+        "Level": 8,
+        "Exp": 350,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "50x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1309,
+        "SeasonId": 13,
+        "Level": 9,
+        "Exp": 400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1310,
+        "SeasonId": 13,
+        "Level": 10,
+        "Exp": 500,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "3x S Supply Key"
+        ],
+        "RewardNormal": [
+            "1x <color=#ffff00>Epic</color> Parts Crate"
+        ]
+    },
+    {
+        "ID": 1311,
+        "SeasonId": 13,
+        "Level": 11,
+        "Exp": 600,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1312,
+        "SeasonId": 13,
+        "Level": 12,
+        "Exp": 700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1313,
+        "SeasonId": 13,
+        "Level": 13,
+        "Exp": 800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "80x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1314,
+        "SeasonId": 13,
+        "Level": 14,
+        "Exp": 900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1315,
+        "SeasonId": 13,
+        "Level": 15,
+        "Exp": 1000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "10x Master Yang Shard"
+        ],
+        "RewardNormal": [
+            "10x Master Yang Shard"
+        ]
+    },
+    {
+        "ID": 1316,
+        "SeasonId": 13,
+        "Level": 16,
+        "Exp": 1100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1317,
+        "SeasonId": 13,
+        "Level": 17,
+        "Exp": 1200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1318,
+        "SeasonId": 13,
+        "Level": 18,
+        "Exp": 1300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "80x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1319,
+        "SeasonId": 13,
+        "Level": 19,
+        "Exp": 1400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1320,
+        "SeasonId": 13,
+        "Level": 20,
+        "Exp": 1500,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#D76CFF>Excellent</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Epic Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1321,
+        "SeasonId": 13,
+        "Level": 21,
+        "Exp": 1600,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1322,
+        "SeasonId": 13,
+        "Level": 22,
+        "Exp": 1700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1323,
+        "SeasonId": 13,
+        "Level": 23,
+        "Exp": 1800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "100x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1324,
+        "SeasonId": 13,
+        "Level": 24,
+        "Exp": 1900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x EDF Key"
+        ]
+    },
+    {
+        "ID": 1325,
+        "SeasonId": 13,
+        "Level": 25,
+        "Exp": 2000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "10x Master Yang Shard"
+        ],
+        "RewardNormal": [
+            "10x Master Yang Shard"
+        ]
+    },
+    {
+        "ID": 1326,
+        "SeasonId": 13,
+        "Level": 26,
+        "Exp": 2100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1327,
+        "SeasonId": 13,
+        "Level": 27,
+        "Exp": 2200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1328,
+        "SeasonId": 13,
+        "Level": 28,
+        "Exp": 2300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "150x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1329,
+        "SeasonId": 13,
+        "Level": 29,
+        "Exp": 2400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x S Supply Key"
+        ]
+    },
+    {
+        "ID": 1330,
+        "SeasonId": 13,
+        "Level": 30,
+        "Exp": 2500,
+        "RewardFree": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#ffff00>Epic</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Epic Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1401,
+        "SeasonId": 14,
+        "Level": 1,
+        "Exp": 0,
+        "RewardFree": [
+            "10x Energy"
+        ],
+        "RewardLower": [
+            "10x Master Yang Shard"
+        ],
+        "RewardNormal": [
+            "10x Master Yang Shard"
+        ]
+    },
+    {
+        "ID": 1402,
+        "SeasonId": 14,
+        "Level": 2,
+        "Exp": 50,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1403,
+        "SeasonId": 14,
+        "Level": 3,
+        "Exp": 100,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "50x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1404,
+        "SeasonId": 14,
+        "Level": 4,
+        "Exp": 150,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1405,
+        "SeasonId": 14,
+        "Level": 5,
+        "Exp": 200,
+        "RewardFree": [
+            "1x <color=#69D963>Good</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Excellent Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1406,
+        "SeasonId": 14,
+        "Level": 6,
+        "Exp": 250,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1407,
+        "SeasonId": 14,
+        "Level": 7,
+        "Exp": 300,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1408,
+        "SeasonId": 14,
+        "Level": 8,
+        "Exp": 350,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "50x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1409,
+        "SeasonId": 14,
+        "Level": 9,
+        "Exp": 400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1410,
+        "SeasonId": 14,
+        "Level": 10,
+        "Exp": 500,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "3x S Supply Key"
+        ],
+        "RewardNormal": [
+            "1x <color=#ffff00>Epic</color> Parts Crate"
+        ]
+    },
+    {
+        "ID": 1411,
+        "SeasonId": 14,
+        "Level": 11,
+        "Exp": 600,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1412,
+        "SeasonId": 14,
+        "Level": 12,
+        "Exp": 700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1413,
+        "SeasonId": 14,
+        "Level": 13,
+        "Exp": 800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "80x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1414,
+        "SeasonId": 14,
+        "Level": 14,
+        "Exp": 900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1415,
+        "SeasonId": 14,
+        "Level": 15,
+        "Exp": 1000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "10x Master Yang Shard"
+        ],
+        "RewardNormal": [
+            "10x Master Yang Shard"
+        ]
+    },
+    {
+        "ID": 1416,
+        "SeasonId": 14,
+        "Level": 16,
+        "Exp": 1100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1417,
+        "SeasonId": 14,
+        "Level": 17,
+        "Exp": 1200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1418,
+        "SeasonId": 14,
+        "Level": 18,
+        "Exp": 1300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "80x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1419,
+        "SeasonId": 14,
+        "Level": 19,
+        "Exp": 1400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1420,
+        "SeasonId": 14,
+        "Level": 20,
+        "Exp": 1500,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#D76CFF>Excellent</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Epic Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1421,
+        "SeasonId": 14,
+        "Level": 21,
+        "Exp": 1600,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1422,
+        "SeasonId": 14,
+        "Level": 22,
+        "Exp": 1700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1423,
+        "SeasonId": 14,
+        "Level": 23,
+        "Exp": 1800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "100x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1424,
+        "SeasonId": 14,
+        "Level": 24,
+        "Exp": 1900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x EDF Key"
+        ]
+    },
+    {
+        "ID": 1425,
+        "SeasonId": 14,
+        "Level": 25,
+        "Exp": 2000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "10x Master Yang Shard"
+        ],
+        "RewardNormal": [
+            "10x Master Yang Shard"
+        ]
+    },
+    {
+        "ID": 1426,
+        "SeasonId": 14,
+        "Level": 26,
+        "Exp": 2100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1427,
+        "SeasonId": 14,
+        "Level": 27,
+        "Exp": 2200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1428,
+        "SeasonId": 14,
+        "Level": 28,
+        "Exp": 2300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "150x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1429,
+        "SeasonId": 14,
+        "Level": 29,
+        "Exp": 2400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x S Supply Key"
+        ]
+    },
+    {
+        "ID": 1430,
+        "SeasonId": 14,
+        "Level": 30,
+        "Exp": 2500,
+        "RewardFree": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#ffff00>Epic</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Epic Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1501,
+        "SeasonId": 15,
+        "Level": 1,
+        "Exp": 0,
+        "RewardFree": [
+            "10x Energy"
+        ],
+        "RewardLower": [
+            "10x Master Yang Shard"
+        ],
+        "RewardNormal": [
+            "10x Master Yang Shard"
+        ]
+    },
+    {
+        "ID": 1502,
+        "SeasonId": 15,
+        "Level": 2,
+        "Exp": 50,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1503,
+        "SeasonId": 15,
+        "Level": 3,
+        "Exp": 100,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "50x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1504,
+        "SeasonId": 15,
+        "Level": 4,
+        "Exp": 150,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1505,
+        "SeasonId": 15,
+        "Level": 5,
+        "Exp": 200,
+        "RewardFree": [
+            "1x <color=#69D963>Good</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Excellent Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1506,
+        "SeasonId": 15,
+        "Level": 6,
+        "Exp": 250,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1507,
+        "SeasonId": 15,
+        "Level": 7,
+        "Exp": 300,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1508,
+        "SeasonId": 15,
+        "Level": 8,
+        "Exp": 350,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "50x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1509,
+        "SeasonId": 15,
+        "Level": 9,
+        "Exp": 400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1510,
+        "SeasonId": 15,
+        "Level": 10,
+        "Exp": 500,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "3x S Supply Key"
+        ],
+        "RewardNormal": [
+            "1x <color=#ffff00>Epic</color> Parts Crate"
+        ]
+    },
+    {
+        "ID": 1511,
+        "SeasonId": 15,
+        "Level": 11,
+        "Exp": 600,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1512,
+        "SeasonId": 15,
+        "Level": 12,
+        "Exp": 700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1513,
+        "SeasonId": 15,
+        "Level": 13,
+        "Exp": 800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "80x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1514,
+        "SeasonId": 15,
+        "Level": 14,
+        "Exp": 900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1515,
+        "SeasonId": 15,
+        "Level": 15,
+        "Exp": 1000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "10x Master Yang Shard"
+        ],
+        "RewardNormal": [
+            "10x Master Yang Shard"
+        ]
+    },
+    {
+        "ID": 1516,
+        "SeasonId": 15,
+        "Level": 16,
+        "Exp": 1100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1517,
+        "SeasonId": 15,
+        "Level": 17,
+        "Exp": 1200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1518,
+        "SeasonId": 15,
+        "Level": 18,
+        "Exp": 1300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "80x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1519,
+        "SeasonId": 15,
+        "Level": 19,
+        "Exp": 1400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1520,
+        "SeasonId": 15,
+        "Level": 20,
+        "Exp": 1500,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#D76CFF>Excellent</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Epic Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1521,
+        "SeasonId": 15,
+        "Level": 21,
+        "Exp": 1600,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1522,
+        "SeasonId": 15,
+        "Level": 22,
+        "Exp": 1700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1523,
+        "SeasonId": 15,
+        "Level": 23,
+        "Exp": 1800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "100x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1524,
+        "SeasonId": 15,
+        "Level": 24,
+        "Exp": 1900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x EDF Key"
+        ]
+    },
+    {
+        "ID": 1525,
+        "SeasonId": 15,
+        "Level": 25,
+        "Exp": 2000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "10x Master Yang Shard"
+        ],
+        "RewardNormal": [
+            "10x Master Yang Shard"
+        ]
+    },
+    {
+        "ID": 1526,
+        "SeasonId": 15,
+        "Level": 26,
+        "Exp": 2100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1527,
+        "SeasonId": 15,
+        "Level": 27,
+        "Exp": 2200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1528,
+        "SeasonId": 15,
+        "Level": 28,
+        "Exp": 2300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "150x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1529,
+        "SeasonId": 15,
+        "Level": 29,
+        "Exp": 2400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x S Supply Key"
+        ]
+    },
+    {
+        "ID": 1530,
+        "SeasonId": 15,
+        "Level": 30,
+        "Exp": 2500,
+        "RewardFree": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#ffff00>Epic</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Epic Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1601,
+        "SeasonId": 16,
+        "Level": 1,
+        "Exp": 0,
+        "RewardFree": [
+            "10x Energy"
+        ],
+        "RewardLower": [
+            "10x Master Yang Shard"
+        ],
+        "RewardNormal": [
+            "10x Master Yang Shard"
+        ]
+    },
+    {
+        "ID": 1602,
+        "SeasonId": 16,
+        "Level": 2,
+        "Exp": 50,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1603,
+        "SeasonId": 16,
+        "Level": 3,
+        "Exp": 100,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "50x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1604,
+        "SeasonId": 16,
+        "Level": 4,
+        "Exp": 150,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1605,
+        "SeasonId": 16,
+        "Level": 5,
+        "Exp": 200,
+        "RewardFree": [
+            "1x <color=#69D963>Good</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Excellent Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1606,
+        "SeasonId": 16,
+        "Level": 6,
+        "Exp": 250,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1607,
+        "SeasonId": 16,
+        "Level": 7,
+        "Exp": 300,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1608,
+        "SeasonId": 16,
+        "Level": 8,
+        "Exp": 350,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "50x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1609,
+        "SeasonId": 16,
+        "Level": 9,
+        "Exp": 400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1610,
+        "SeasonId": 16,
+        "Level": 10,
+        "Exp": 500,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "3x S Supply Key"
+        ],
+        "RewardNormal": [
+            "1x <color=#ffff00>Epic</color> Parts Crate"
+        ]
+    },
+    {
+        "ID": 1611,
+        "SeasonId": 16,
+        "Level": 11,
+        "Exp": 600,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1612,
+        "SeasonId": 16,
+        "Level": 12,
+        "Exp": 700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1613,
+        "SeasonId": 16,
+        "Level": 13,
+        "Exp": 800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "80x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1614,
+        "SeasonId": 16,
+        "Level": 14,
+        "Exp": 900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1615,
+        "SeasonId": 16,
+        "Level": 15,
+        "Exp": 1000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "10x Master Yang Shard"
+        ],
+        "RewardNormal": [
+            "10x Master Yang Shard"
+        ]
+    },
+    {
+        "ID": 1616,
+        "SeasonId": 16,
+        "Level": 16,
+        "Exp": 1100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1617,
+        "SeasonId": 16,
+        "Level": 17,
+        "Exp": 1200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1618,
+        "SeasonId": 16,
+        "Level": 18,
+        "Exp": 1300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "80x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1619,
+        "SeasonId": 16,
+        "Level": 19,
+        "Exp": 1400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1620,
+        "SeasonId": 16,
+        "Level": 20,
+        "Exp": 1500,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#D76CFF>Excellent</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Epic Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1621,
+        "SeasonId": 16,
+        "Level": 21,
+        "Exp": 1600,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1622,
+        "SeasonId": 16,
+        "Level": 22,
+        "Exp": 1700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1623,
+        "SeasonId": 16,
+        "Level": 23,
+        "Exp": 1800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "100x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1624,
+        "SeasonId": 16,
+        "Level": 24,
+        "Exp": 1900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x EDF Key"
+        ]
+    },
+    {
+        "ID": 1625,
+        "SeasonId": 16,
+        "Level": 25,
+        "Exp": 2000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "10x Master Yang Shard"
+        ],
+        "RewardNormal": [
+            "10x Master Yang Shard"
+        ]
+    },
+    {
+        "ID": 1626,
+        "SeasonId": 16,
+        "Level": 26,
+        "Exp": 2100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1627,
+        "SeasonId": 16,
+        "Level": 27,
+        "Exp": 2200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1628,
+        "SeasonId": 16,
+        "Level": 28,
+        "Exp": 2300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "150x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1629,
+        "SeasonId": 16,
+        "Level": 29,
+        "Exp": 2400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x S Supply Key"
+        ]
+    },
+    {
+        "ID": 1630,
+        "SeasonId": 16,
+        "Level": 30,
+        "Exp": 2500,
+        "RewardFree": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#ffff00>Epic</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Epic Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1701,
+        "SeasonId": 17,
+        "Level": 1,
+        "Exp": 0,
+        "RewardFree": [
+            "10x Energy"
+        ],
+        "RewardLower": [
+            "10x Master Yang Shard"
+        ],
+        "RewardNormal": [
+            "10x Master Yang Shard"
+        ]
+    },
+    {
+        "ID": 1702,
+        "SeasonId": 17,
+        "Level": 2,
+        "Exp": 50,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1703,
+        "SeasonId": 17,
+        "Level": 3,
+        "Exp": 100,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "50x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1704,
+        "SeasonId": 17,
+        "Level": 4,
+        "Exp": 150,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1705,
+        "SeasonId": 17,
+        "Level": 5,
+        "Exp": 200,
+        "RewardFree": [
+            "1x <color=#69D963>Good</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Excellent Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1706,
+        "SeasonId": 17,
+        "Level": 6,
+        "Exp": 250,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1707,
+        "SeasonId": 17,
+        "Level": 7,
+        "Exp": 300,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1708,
+        "SeasonId": 17,
+        "Level": 8,
+        "Exp": 350,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "50x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1709,
+        "SeasonId": 17,
+        "Level": 9,
+        "Exp": 400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1710,
+        "SeasonId": 17,
+        "Level": 10,
+        "Exp": 500,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "3x S Supply Key"
+        ],
+        "RewardNormal": [
+            "1x <color=#ffff00>Epic</color> Parts Crate"
+        ]
+    },
+    {
+        "ID": 1711,
+        "SeasonId": 17,
+        "Level": 11,
+        "Exp": 600,
+        "RewardFree": [
+            "150x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "3000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1712,
+        "SeasonId": 17,
+        "Level": 12,
+        "Exp": 700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1713,
+        "SeasonId": 17,
+        "Level": 13,
+        "Exp": 800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "80x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1714,
+        "SeasonId": 17,
+        "Level": 14,
+        "Exp": 900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "4x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1715,
+        "SeasonId": 17,
+        "Level": 15,
+        "Exp": 1000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "10x Master Yang Shard"
+        ],
+        "RewardNormal": [
+            "10x Master Yang Shard"
+        ]
+    },
+    {
+        "ID": 1716,
+        "SeasonId": 17,
+        "Level": 16,
+        "Exp": 1100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1717,
+        "SeasonId": 17,
+        "Level": 17,
+        "Exp": 1200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1718,
+        "SeasonId": 17,
+        "Level": 18,
+        "Exp": 1300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "80x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1719,
+        "SeasonId": 17,
+        "Level": 19,
+        "Exp": 1400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x Pawerful Pet Chest Key"
+        ]
+    },
+    {
+        "ID": 1720,
+        "SeasonId": 17,
+        "Level": 20,
+        "Exp": 1500,
+        "RewardFree": [
+            "1x <color=#3ABFE3>Better</color> Parts Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#D76CFF>Excellent</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Epic Part Choice Pack"
+        ]
+    },
+    {
+        "ID": 1721,
+        "SeasonId": 17,
+        "Level": 21,
+        "Exp": 1600,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "8000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1722,
+        "SeasonId": 17,
+        "Level": 22,
+        "Exp": 1700,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1723,
+        "SeasonId": 17,
+        "Level": 23,
+        "Exp": 1800,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "100x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1724,
+        "SeasonId": 17,
+        "Level": 24,
+        "Exp": 1900,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "5x EDF Key"
+        ]
+    },
+    {
+        "ID": 1725,
+        "SeasonId": 17,
+        "Level": 25,
+        "Exp": 2000,
+        "RewardFree": [
+            "1x S Supply Key"
+        ],
+        "RewardLower": [
+            "10x Master Yang Shard"
+        ],
+        "RewardNormal": [
+            "10x Master Yang Shard"
+        ]
+    },
+    {
+        "ID": 1726,
+        "SeasonId": 17,
+        "Level": 26,
+        "Exp": 2100,
+        "RewardFree": [
+            "200x Energy Essence"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10000x Energy Essence"
+        ]
+    },
+    {
+        "ID": 1727,
+        "SeasonId": 17,
+        "Level": 27,
+        "Exp": 2200,
+        "RewardFree": [
+            "2x Patrol Coin"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x Random Parts Crate (Master)"
+        ]
+    },
+    {
+        "ID": 1728,
+        "SeasonId": 17,
+        "Level": 28,
+        "Exp": 2300,
+        "RewardFree": [
+            "10x Random Design Pack"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "150x Random Design Pack"
+        ]
+    },
+    {
+        "ID": 1729,
+        "SeasonId": 17,
+        "Level": 29,
+        "Exp": 2400,
+        "RewardFree": [
+            "1x Army Key"
+        ],
+        "RewardLower": [
+            "200x Energy Essence"
+        ],
+        "RewardNormal": [
+            "10x S Supply Key"
+        ]
+    },
+    {
+        "ID": 1730,
+        "SeasonId": 17,
+        "Level": 30,
+        "Exp": 2500,
+        "RewardFree": [
+            "1x <color=#D76CFF>Excellent</color> Supply Crate"
+        ],
+        "RewardLower": [
+            "1x <color=#ffff00>Epic</color> Parts Crate"
+        ],
+        "RewardNormal": [
+            "1x Epic Part Choice Pack"
+        ]
+    }
+]

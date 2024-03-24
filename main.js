@@ -30,16 +30,20 @@ const searchValueByKey = (array, key, value) => {
     return array.find(item => item[key] === value);
 }
 
-function writeFile(arr) {
-    const jsonData = JSON.stringify(arr);
-
-    fs.writeFile('output.json', jsonData, 'utf8', (err) => {
-        if (err) {
-            console.error('Error writing file:', err);
-            return;
+function writeFile() {
+    for(let key in master_object){
+        let data = master_object[key][3];
+        if(data.length != 0){
+            const jsonData = JSON.stringify(data);
+            fs.writeFile(`./readable_csvs/${key}_readable.json`, jsonData, 'utf8', (err) => {
+                if (err) {
+                    console.error('Error writing file:', err);
+                    return;
+                }
+                console.log('File has been written successfully.');
+            });
         }
-        console.log('File has been written successfully.');
-    });
+    }
 }
 
 function regexFiles() {
@@ -136,6 +140,9 @@ function loadFiles() {
 }
 //#endregion
 
+
+
+//#region Population Functions
 function populateMaster() {
     let user_csv_supported = [];
     let len = user_csv_collection.length + 1;
@@ -173,9 +180,6 @@ function populateMaster() {
     }
 
 }
-
-//#region Population Functions
-
 
 function populateGuildBossRankCsv(guildbossrankcsv_data) {
     for (let i = 0; i < guildbossrankcsv_data.length; i++) {
@@ -544,19 +548,19 @@ function populateCollectionCsv(collectioncsv_data) {
 
 // Main Object
 const master_object = {
-    'ItemCsv': [path.resolve(__dirname, './csvs/ItemCsv.json'), ['LanguageCsv'], populateItemCsv],
-    'RewardCsv': [path.resolve(__dirname, './csvs/RewardCsv.json'), ['LanguageCsv', 'ItemCsv'], populateRewardCsv],
-    'LanguageCsv': [path.resolve(__dirname, './csvs/LanguageCsv.json'), ['LanguageCsv'], populateLanguageCsv],
-    'HeroWakeCsv': [path.resolve(__dirname, './csvs/HeroWakeCsv.json'), ['LanguageCsv', 'HeroWakeSkillCsv', 'ItemCsv'], populateHeroWakeCsv],
-    'HeroWakeSkillCsv': [path.resolve(__dirname, './csvs/HeroWakeSkillCsv.json'), ['LanguageCsv'], populateHeroWakeSkillCsv],
-    'guildShopCsv': [path.resolve(__dirname, './csvs/guildShopCsv.json'), ['ItemCsv'], populateGuildShopCsv],
-    'guildTaskCsv': [path.resolve(__dirname, './csvs/guildTaskCsv.json'), ['ItemCsv', 'LanguageCsv'], populateGuildTaskCsv],
-    'BattlePassRewardCsv': [path.resolve(__dirname, './csvs/BattlePassRewardCsv.json'), ['ItemCsv'], populateBattlePassRewardCsv],
-    'CollectionCsv': [path.resolve(__dirname, './csvs/CollectionCsv.json'), ['LanguageCsv'], populateCollectionCsv],
-    'guildBossRankCsv': [path.resolve(__dirname, './csvs/guildBossRankCsv.json'), ['RewardCsv'], populateGuildBossRankCsv],
-    'guildBossCsv': [path.resolve(__dirname, './csvs/guildBossCsv.json'), ['RewardCsv'], populateGuildBossCsv],
-    'EchoRankRewardCsv': [path.resolve(__dirname, './csvs/EchoRankRewardCsv.json'), ['EchoBattleSubsection2Csv'], populateEchoRankRewardCsv],
-    'EchoBattleSubsection2Csv': [path.resolve(__dirname, './csvs/EchoBattleSubsection2Csv.json'), ['EchoBattleSubsection2Csv'], populateEchoBattleSubsection2Csv]
+    'ItemCsv': [path.resolve(__dirname, './csvs/ItemCsv.json'), ['LanguageCsv'], populateItemCsv, itemcsv_populated],
+    'RewardCsv': [path.resolve(__dirname, './csvs/RewardCsv.json'), ['LanguageCsv', 'ItemCsv'], populateRewardCsv, rewardcsv_populated],
+    'LanguageCsv': [path.resolve(__dirname, './csvs/LanguageCsv.json'), ['LanguageCsv'], populateLanguageCsv, languagecsv_populated],
+    'HeroWakeCsv': [path.resolve(__dirname, './csvs/HeroWakeCsv.json'), ['LanguageCsv', 'HeroWakeSkillCsv', 'ItemCsv'], populateHeroWakeCsv, herowakecsv_populated],
+    'HeroWakeSkillCsv': [path.resolve(__dirname, './csvs/HeroWakeSkillCsv.json'), ['LanguageCsv'], populateHeroWakeSkillCsv, herowakeskillcsv_populated],
+    'guildShopCsv': [path.resolve(__dirname, './csvs/guildShopCsv.json'), ['ItemCsv'], populateGuildShopCsv, guildshopcsv_populated],
+    'guildTaskCsv': [path.resolve(__dirname, './csvs/guildTaskCsv.json'), ['ItemCsv', 'LanguageCsv'], populateGuildTaskCsv, guildtaskcsv_populated],
+    'BattlePassRewardCsv': [path.resolve(__dirname, './csvs/BattlePassRewardCsv.json'), ['ItemCsv'], populateBattlePassRewardCsv, battlepassrewardcsv_populated],
+    'CollectionCsv': [path.resolve(__dirname, './csvs/CollectionCsv.json'), ['LanguageCsv'], populateCollectionCsv, collectioncsv_populated],
+    'guildBossRankCsv': [path.resolve(__dirname, './csvs/guildBossRankCsv.json'), ['RewardCsv'], populateGuildBossRankCsv, guildbossrankcsv_populated],
+    'guildBossCsv': [path.resolve(__dirname, './csvs/guildBossCsv.json'), ['RewardCsv'], populateGuildBossCsv, guildbosscsv_populated],
+    'EchoRankRewardCsv': [path.resolve(__dirname, './csvs/EchoRankRewardCsv.json'), ['EchoBattleSubsection2Csv'], populateEchoRankRewardCsv, echorankrewardcsv_populated],
+    'EchoBattleSubsection2Csv': [path.resolve(__dirname, './csvs/EchoBattleSubsection2Csv.json'), ['EchoBattleSubsection2Csv'], populateEchoBattleSubsection2Csv, echobattlesubsection2csv_populated]
 
 };
 
@@ -568,7 +572,7 @@ const menuOptions = [
         type: 'list',
         name: 'action',
         message: 'Choose an action:',
-        choices: ['Rename Files', 'Sanitize File Content', 'Load Files', 'Exit']
+        choices: ['Rename Files', 'Sanitize File Content', 'Load Files', 'Write Files', 'Exit']
     }
 ];
 
@@ -587,6 +591,10 @@ function start() {
                     break;
                 case 'Load Files':
                     loadFiles();
+                    start();
+                    break;
+                case 'Write Files':
+                    writeFile();
                     start();
                     break;
                 case 'Exit':

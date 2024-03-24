@@ -131,6 +131,8 @@ dist
 
 # game files
 /csvs*/*
-!/csvs*/LanguageCsv.json
+!/csvs*/BattlePassRewardCsv.json
+/readable_csvs/*
+!/readable_csvs/BattlePassRewardCsv_readable.json
 test.js
 /ignore*
