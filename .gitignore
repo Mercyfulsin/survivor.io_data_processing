@@ -132,3 +132,5 @@ dist
 # game files
 /csvs*/*
 !/csvs*/LanguageCsv.json
+test.js
+/ignore*

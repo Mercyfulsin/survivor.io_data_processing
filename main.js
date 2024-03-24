@@ -2,35 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
 
-const rewardcsv = path.resolve(__dirname, './csvs/RewardCsv.json');
-const rewardcsv_data = require(rewardcsv);
-const itemcsv = path.resolve(__dirname, './csvs/ItemCsv.json');
-const itemcsv_data = require(itemcsv);
-const languagecsv = path.resolve(__dirname, './csvs/LanguageCsv.json');
-const languagecsv_data = require(languagecsv);
-const echorankrewardcsv = path.resolve(__dirname, './csvs/EchoRankRewardCsv.json');
-const echorankrewardcsv_data = require(echorankrewardcsv);
-const echobattlesubsection2csv = path.resolve(__dirname, './csvs/EchoBattleSubsection2Csv.json');
-const echobattlesubsection2csv_data = require(echobattlesubsection2csv);
-const herowakeskillcsv = path.resolve(__dirname, './csvs/HeroWakeSkillCsv.json');
-const herowakeskillcsv_data = require(herowakeskillcsv);
-const herowakecsv = path.resolve(__dirname, './csvs/HeroWakeCsv.json');
-const herowakecsv_data = require(herowakecsv);
-const guildshopcsv = path.resolve(__dirname, './csvs/guildShopCsv.json');
-const guildshopcsv_data = require(guildshopcsv);
-const guildtaskcsv = path.resolve(__dirname, './csvs/guildTaskCsv.json');
-const guildtaskcsv_data = require(guildtaskcsv);
-const battlepassrewardcsv = path.resolve(__dirname, './csvs/BattlePassRewardCsv.json');
-const battlepassrewardcsv_data = require(battlepassrewardcsv);
-const collectioncsv = path.resolve(__dirname, './csvs/CollectionCsv.json');
-const collectioncsv_data = require(collectioncsv);
-const guildbossrankcsv = path.resolve(__dirname, './csvs/guildBossRankCsv.json');
-const guildbossrankcsv_data = require(guildbossrankcsv);
-const guildbosscsv = path.resolve(__dirname, './csvs/guildBossCsv.json');
-const guildbosscsv_data = require(guildbosscsv);
+let user_csv_collection = [];
 
-
-let data_dic = {};
+// Where Modified data lives in memory
 let itemcsv_populated = [];
 let rewardcsv_populated = [];
 let languagecsv_populated = [];
@@ -45,11 +19,165 @@ let collectioncsv_populated = [];
 let guildbossrankcsv_populated = [];
 let guildbosscsv_populated = [];
 
+//#region Tool Functions
+const checkSubset = (parentArray, subsetArray) => {
+    return subsetArray.every((el) => {
+        return parentArray.includes(el)
+    })
+}
+
 const searchValueByKey = (array, key, value) => {
     return array.find(item => item[key] === value);
-};
+}
 
-function populateGuildBossRankCsv(){
+function writeFile(arr) {
+    const jsonData = JSON.stringify(arr);
+
+    fs.writeFile('output.json', jsonData, 'utf8', (err) => {
+        if (err) {
+            console.error('Error writing file:', err);
+            return;
+        }
+        console.log('File has been written successfully.');
+    });
+}
+
+function regexFiles() {
+    fs.readdir('./csvs', (err, files) => {
+        if (err) {
+            console.error('Error reading folder:', err);
+            return;
+        }
+
+        files.forEach(file => {
+            if (path.extname(file) === '.json') {
+                const filePath = path.join('./csvs', file);
+
+                fs.readFile(filePath, 'utf8', (err, data) => {
+                    if (err) {
+                        console.error('Error reading file:', err);
+                        return;
+                    }
+                    const regex = /".*? <(.*?)>.*?":/g; // Regex pattern to match text inside <>
+                    const replacedData = data.replace(regex, (match, captureGroup) => `"${captureGroup}":`);
+                    // Write replaced data back to the file
+                    fs.writeFile(filePath, replacedData, 'utf8', (err) => {
+                        if (err) {
+                            console.error('Error writing file:', err);
+                            return;
+                        }
+                    });
+                });
+            }
+        });
+    });
+    console.log("Files have been regex'd!");
+}
+
+function renameFiles() {
+    fs.readdir('./csvs', (err, files) => {
+        if (err) {
+            console.error('Error reading folder:', err);
+            return;
+        }
+
+        files.forEach(file => {
+            if (path.extname(file) === '.json') {
+                const filePath = path.join('./csvs', file);
+
+                fs.readFile(filePath, 'utf8', (err, data) => {
+                    if (err) {
+                        console.error('Error reading file:', err);
+                        return;
+                    }
+                    try {
+                        const jsonData = JSON.parse(data);
+                        const firstKey = Object.keys(jsonData[0])[0];
+                        const newName = firstKey.substring(0, firstKey.length - 3).concat("Csv");
+                        fs.rename(filePath, path.join('./csvs', newName + '.json'), err => {
+                            if (err) {
+                                console.error('Error renaming file:', err);
+                            }
+                        });
+                    } catch (e) {
+                        console.error('Error parsing JSON:', e);
+                    }
+                });
+            }
+        });
+    });
+    console.log("Files have been renamed!");
+}
+
+function loadFiles() {
+    fs.readdir('./csvs', (err, files) => {
+        if (err) {
+            console.error('Error reading folder:', err);
+            return;
+        }
+        files.forEach(file => {
+            if (path.extname(file) === '.json') {
+                const filePath = path.join('./csvs', file);
+                let data = fs.readFileSync(filePath, { encoding: 'utf8', flag: 'r' })
+                try {
+                    const jsonData = JSON.parse(data);
+                    const firstKey = Object.keys(jsonData[0])[0];
+                    const newName = firstKey.substring(0, firstKey.length - 3).concat("Csv");
+                    master_object[newName] ? user_csv_collection.push(newName) : "";
+                } catch (e) {
+                    console.error('Error parsing JSON:', e);
+                }
+            }
+        });
+        console.log("\nLoaded Supported File Names!");
+        console.log(user_csv_collection);
+        populateMaster();
+    });
+}
+//#endregion
+
+function populateMaster() {
+    let user_csv_supported = [];
+    let len = user_csv_collection.length + 1;
+    let trigger = true;
+    do {
+        user_csv_collection.forEach((file) => {
+            let compare = [file];
+            let required_csvs = master_object[file][1];
+            if (JSON.stringify(compare) == JSON.stringify(required_csvs)) {
+                user_csv_supported.push(file);
+                const index = user_csv_collection.indexOf(file);
+                if (index > -1) {
+                    user_csv_collection.splice(index, 1);
+                }
+            } else {
+                if (checkSubset(user_csv_supported, required_csvs)) {
+                    user_csv_supported.push(file);
+                    const index = user_csv_collection.indexOf(file);
+                    if (index > -1) {
+                        user_csv_collection.splice(index, 1);
+                    }
+                };
+            }
+        });
+        len === user_csv_collection.length ? trigger = false : len = user_csv_collection.length;
+    } while (trigger);
+    console.log('Files that have required Csv\'s');
+    console.log(user_csv_supported);
+
+    for (let i = 0; i < user_csv_supported.length; i++) {
+        let name = user_csv_supported[i];
+        let data = require(master_object[name][0]);
+        master_object[name][2](data);
+        console.log(`Populated ${name}.`);
+    }
+
+}
+
+//#region Population Functions
+
+
+function populateGuildBossRankCsv(guildbossrankcsv_data) {
     for (let i = 0; i < guildbossrankcsv_data.length; i++) {
         let tempJson = {};
         currentItem = guildbossrankcsv_data[i].guildBossRankRow;
@@ -58,7 +186,7 @@ function populateGuildBossRankCsv(){
                 case 'RankReward':
                     let singleReward = [];
                     let allReward = [];
-                    for (let x = 0; x < currentItem[item].length; x++){
+                    for (let x = 0; x < currentItem[item].length; x++) {
                         let currReward = currentItem[item][x]['System.Int32[]'];
                         let reward = searchValueByKey(rewardcsv_populated, 'id', currReward[2]);
                         singleReward = reward.reward.slice();
@@ -75,7 +203,7 @@ function populateGuildBossRankCsv(){
     }
 }
 
-function populateGuildBossCsv(){
+function populateGuildBossCsv(guildbosscsv_data) {
     for (let i = 0; i < guildbosscsv_data.length; i++) {
         let tempJson = {};
         currentItem = guildbosscsv_data[i].guildBossRow;
@@ -83,7 +211,7 @@ function populateGuildBossCsv(){
             switch (item) {
                 case 'MissionReward':
                     let missionReward = [];
-                    for (let x = 0; x < currentItem[item].length; x++){
+                    for (let x = 0; x < currentItem[item].length; x++) {
                         let reward = searchValueByKey(rewardcsv_populated, 'id', currentItem[item][x]);
                         missionReward.push(reward.reward.slice());
                     }
@@ -92,7 +220,7 @@ function populateGuildBossCsv(){
                 case 'BossReward':
                     let singleReward = [];
                     let bossReward = [];
-                    for (let x = 0; x < currentItem[item].length; x++){
+                    for (let x = 0; x < currentItem[item].length; x++) {
                         let currReward = currentItem[item][x]['System.Int32[]'];
                         let reward = searchValueByKey(rewardcsv_populated, 'id', currReward[1]);
                         singleReward = reward.reward.slice();
@@ -114,7 +242,7 @@ function populateGuildBossCsv(){
     }
 }
 
-function populateEchoBattleSubsection2Csv() {
+function populateEchoBattleSubsection2Csv(echobattlesubsection2csv_data) {
     for (let i = 0; i < echobattlesubsection2csv_data.length; i++) {
         let tempJson = {};
         for (const item in echobattlesubsection2csv_data[i].EchoBattleSubsection2Row) {
@@ -124,7 +252,7 @@ function populateEchoBattleSubsection2Csv() {
     }
 }
 
-function populateLanguageCsv() {
+function populateLanguageCsv(languagecsv_data) {
     for (let i = 0; i < languagecsv_data.length; i++) {
         let tempJson = {};
         for (const item in languagecsv_data[i].LanguageRow) {
@@ -134,7 +262,7 @@ function populateLanguageCsv() {
     }
 }
 
-function populateItemCsv() {
+function populateItemCsv(itemcsv_data) {
     for (let i = 0; i < itemcsv_data.length; i++) {
         let tempJson = {};
         currentItem = itemcsv_data[i].ItemRow;
@@ -164,7 +292,7 @@ function populateItemCsv() {
     }
 }
 
-function populateRewardCsv() {
+function populateRewardCsv(rewardcsv_data) {
     for (let i = 0; i < rewardcsv_data.length; i++) {
         let tempJson = {};
         currentItem = rewardcsv_data[i].RewardRow;
@@ -197,7 +325,7 @@ function populateRewardCsv() {
     }
 }
 
-function populateEchoRankRewardCsv() {
+function populateEchoRankRewardCsv(echorankrewardcsv_data) {
     const oldRank = { "1": "Novice", "2": "Elite", "3": "Ace" };
     for (let i = 0; i < echorankrewardcsv_data.length; i++) {
         let tempJson = {};
@@ -224,7 +352,7 @@ function populateEchoRankRewardCsv() {
     }
 }
 
-function populateHeroWakeSkillCsv() {
+function populateHeroWakeSkillCsv(herowakeskillcsv_data) {
     for (let i = 0; i < herowakeskillcsv_data.length; i++) {
         let tempJson = {};
         currentItem = herowakeskillcsv_data[i].HeroWakeSkillRow;
@@ -244,7 +372,7 @@ function populateHeroWakeSkillCsv() {
     }
 }
 
-function populateHeroWakeCsv() {
+function populateHeroWakeCsv(herowakecsv_data) {
     for (let i = 0; i < herowakecsv_data.length; i++) {
         let tempJson = {};
         currentItem = herowakecsv_data[i].HeroWakeRow;
@@ -283,7 +411,7 @@ function populateHeroWakeCsv() {
     }
 }
 
-function populateGuildTaskCsv() {
+function populateGuildTaskCsv(guildtaskcsv_data) {
     for (let i = 0; i < guildtaskcsv_data.length; i++) {
         let tempJson = {};
         currentItem = guildtaskcsv_data[i].guildTaskRow;
@@ -323,7 +451,7 @@ function populateGuildTaskCsv() {
     }
 }
 
-function populateGuildShopCsv() {
+function populateGuildShopCsv(guildshopcsv_data) {
     for (let i = 0; i < guildshopcsv_data.length; i++) {
         let tempJson = {};
         currentItem = guildshopcsv_data[i].guildShopRow;
@@ -358,7 +486,7 @@ function populateGuildShopCsv() {
     }
 }
 
-function populateBattlePassRewardCsv() {
+function populateBattlePassRewardCsv(battlepassrewardcsv_data) {
     for (let i = 0; i < battlepassrewardcsv_data.length; i++) {
         let tempJson = {};
         currentItem = battlepassrewardcsv_data[i].BattlePassRewardRow;
@@ -385,7 +513,7 @@ function populateBattlePassRewardCsv() {
     }
 }
 
-function populateCollectionCsv() {
+function populateCollectionCsv(collectioncsv_data) {
     for (let i = 0; i < collectioncsv_data.length; i++) {
         let tempJson = {};
         currentItem = collectioncsv_data[i].CollectionRow;
@@ -412,87 +540,27 @@ function populateCollectionCsv() {
         collectioncsv_populated.push(tempJson);
     }
 }
+//#endregion
 
-function writeFile(arr) {
-    const jsonData = JSON.stringify(arr);
+// Main Object
+const master_object = {
+    'ItemCsv': [path.resolve(__dirname, './csvs/ItemCsv.json'), ['LanguageCsv'], populateItemCsv],
+    'RewardCsv': [path.resolve(__dirname, './csvs/RewardCsv.json'), ['LanguageCsv', 'ItemCsv'], populateRewardCsv],
+    'LanguageCsv': [path.resolve(__dirname, './csvs/LanguageCsv.json'), ['LanguageCsv'], populateLanguageCsv],
+    'HeroWakeCsv': [path.resolve(__dirname, './csvs/HeroWakeCsv.json'), ['LanguageCsv', 'HeroWakeSkillCsv', 'ItemCsv'], populateHeroWakeCsv],
+    'HeroWakeSkillCsv': [path.resolve(__dirname, './csvs/HeroWakeSkillCsv.json'), ['LanguageCsv'], populateHeroWakeSkillCsv],
+    'guildShopCsv': [path.resolve(__dirname, './csvs/guildShopCsv.json'), ['ItemCsv'], populateGuildShopCsv],
+    'guildTaskCsv': [path.resolve(__dirname, './csvs/guildTaskCsv.json'), ['ItemCsv', 'LanguageCsv'], populateGuildTaskCsv],
+    'BattlePassRewardCsv': [path.resolve(__dirname, './csvs/BattlePassRewardCsv.json'), ['ItemCsv'], populateBattlePassRewardCsv],
+    'CollectionCsv': [path.resolve(__dirname, './csvs/CollectionCsv.json'), ['LanguageCsv'], populateCollectionCsv],
+    'guildBossRankCsv': [path.resolve(__dirname, './csvs/guildBossRankCsv.json'), ['RewardCsv'], populateGuildBossRankCsv],
+    'guildBossCsv': [path.resolve(__dirname, './csvs/guildBossCsv.json'), ['RewardCsv'], populateGuildBossCsv],
+    'EchoRankRewardCsv': [path.resolve(__dirname, './csvs/EchoRankRewardCsv.json'), ['EchoBattleSubsection2Csv'], populateEchoRankRewardCsv],
+    'EchoBattleSubsection2Csv': [path.resolve(__dirname, './csvs/EchoBattleSubsection2Csv.json'), ['EchoBattleSubsection2Csv'], populateEchoBattleSubsection2Csv]
 
-    fs.writeFile('output.json', jsonData, 'utf8', (err) => {
-        if (err) {
-            console.error('Error writing file:', err);
-            return;
-        }
-        console.log('File has been written successfully.');
-    });
-}
+};
 
-function renameFiles() {
-    fs.readdir('./csvs', (err, files) => {
-        if (err) {
-            console.error('Error reading folder:', err);
-            return;
-        }
-
-        files.forEach(file => {
-            if (path.extname(file) === '.json') {
-                const filePath = path.join('./csvs', file);
-
-                fs.readFile(filePath, 'utf8', (err, data) => {
-                    if (err) {
-                        console.error('Error reading file:', err);
-                        return;
-                    }
-                    const regex = /".*? <(.*?)>.*?":/g; // Regex pattern to match text inside <>
-                    const replacedData = data.replace(regex, (match, captureGroup) => `"${captureGroup}":`);
-                    // Write replaced data back to the file
-                    fs.writeFile(filePath, replacedData, 'utf8', (err) => {
-                        if (err) {
-                            console.error('Error writing file:', err);
-                            return;
-                        }
-                    });
-                    try {
-                        const jsonData = JSON.parse(data);
-                        const firstKey = Object.keys(jsonData[0])[0];
-                        const newName = firstKey.substring(0, firstKey.length - 3).concat("Csv");
-                        fs.rename(filePath, path.join('./csvs', newName + '.json'), err => {
-                            if (err) {
-                                console.error('Error renaming file:', err);
-                            }
-                        });
-                    } catch (e) {
-                        console.error('Error parsing JSON:', e);
-                    }
-                });
-            }
-        });
-    });
-}
-
-
-// Perform actions
-populateEchoBattleSubsection2Csv();
-populateLanguageCsv();
-populateItemCsv();
-populateRewardCsv();
-populateEchoRankRewardCsv();
-populateHeroWakeSkillCsv();
-populateHeroWakeCsv();
-populateGuildTaskCsv();
-populateGuildShopCsv();
-populateBattlePassRewardCsv();
-populateCollectionCsv();
-populateGuildBossRankCsv();
-populateGuildBossCsv();
-writeFile(guildbosscsv_populated);
-
-
-function action2() {
-    return 'Function for Action 2 was called';
-}
-
-function action3() {
-    return 'Function for Action 3 was called';
-}
+// writeFile(rewardcsv_populated);
 
 // Menu options
 const menuOptions = [
@@ -500,7 +568,7 @@ const menuOptions = [
         type: 'list',
         name: 'action',
         message: 'Choose an action:',
-        choices: ['Rename Files', 'Action 2', 'Action 3', 'Exit']
+        choices: ['Rename Files', 'Sanitize File Content', 'Load Files', 'Exit']
     }
 ];
 
@@ -511,15 +579,14 @@ function start() {
             switch (answers.action) {
                 case 'Rename Files':
                     renameFiles();
-                    console.log("Files have been renamed and regex'd!\n\n");
                     start();
                     break;
-                case 'Action 2':
-                    console.log(action2());
+                case 'Sanitize File Content':
+                    regexFiles();
                     start();
                     break;
-                case 'Action 3':
-                    console.log(action3());
+                case 'Load Files':
+                    loadFiles();
                     start();
                     break;
                 case 'Exit':
@@ -531,5 +598,4 @@ function start() {
         });
 }
 
-// Call the start function to initiate the application
 start();
