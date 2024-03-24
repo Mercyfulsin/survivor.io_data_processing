@@ -34,7 +34,7 @@ function writeFile() {
     for(let key in master_object){
         let data = master_object[key][3];
         if(data.length != 0){
-            const jsonData = JSON.stringify(data);
+            const jsonData = JSON.stringify(data, undefined, 4);
             fs.writeFile(`./readable_csvs/${key}_readable.json`, jsonData, 'utf8', (err) => {
                 if (err) {
                     console.error('Error writing file:', err);
