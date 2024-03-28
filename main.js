@@ -1,8 +1,16 @@
 const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
+const translate = require('translate-google');
+const { la } = require('translate-google/languages');
 
 let user_csv_collection = [];
+
+// Language
+// let translate_language = 'ESP';
+let translate_language = 'EN';
+// let translate_language = 'FRA';
+
 
 // Where Modified data lives in memory
 let itemcsv_populated = [];
@@ -18,6 +26,9 @@ let battlepassrewardcsv_populated = [];
 let collectioncsv_populated = [];
 let guildbossrankcsv_populated = [];
 let guildbosscsv_populated = [];
+let turbominesbasecsv_populated = [];
+let monopolybasecsv_populated = [];
+let festivaltaskcsv_populated = [];
 
 //#region Tool Functions
 const checkSubset = (parentArray, subsetArray) => {
@@ -31,11 +42,11 @@ const searchValueByKey = (array, key, value) => {
 }
 
 function writeFile() {
-    for(let key in master_object){
+    for (let key in master_object) {
         let data = master_object[key][3];
-        if(data.length != 0){
+        if (data.length != 0) {
             const jsonData = JSON.stringify(data, undefined, 4);
-            fs.writeFile(`./readable_csvs/${key}_readable.json`, jsonData, 'utf8', (err) => {
+            fs.writeFile(`./readable_csvs/${key}_readable_${translate_language}.json`, jsonData, 'utf8', (err) => {
                 if (err) {
                     console.error('Error writing file:', err);
                     return;
@@ -275,7 +286,7 @@ function populateItemCsv(itemcsv_data) {
                 let val = currentItem[item];
                 try {
                     let name = searchValueByKey(languagecsv_populated, 'id', val);
-                    tempJson[item] = name.EN;
+                    tempJson[item] = name[translate_language];
                 } catch (e) {
                     tempJson[item] = currentItem[item];
                 }
@@ -284,7 +295,7 @@ function populateItemCsv(itemcsv_data) {
                 let val = itemcsv_data[i].ItemRow[item];
                 try {
                     let name = searchValueByKey(languagecsv_populated, 'id', val);
-                    tempJson[item] = name.EN;
+                    tempJson[item] = name[translate_language];
                 } catch (e) {
                     tempJson[item] = currentItem[item];
                 }
@@ -317,10 +328,20 @@ function populateRewardCsv(rewardcsv_data) {
                     let itemId = currentItem[item][i]["System.Int32[]"][0];
                     let itemQty = currentItem[item][i]["System.Int32[]"][1];
                     let itemName = searchValueByKey(itemcsv_populated, 'id', itemId).item_name;
-                    let string = `${itemQty}x ${itemName}`;
+                    let iconId = searchValueByKey(itemcsv_populated, 'id', itemId).iconId;
+                    let string = [`${itemQty}x ${itemName}`, `${itemQty}x :${iconId}:`];
                     tempArray.push(string);
                 }
                 tempJson[item] = tempArray;
+            } else if (item === 'desc') {
+                // let val = currentItem[item];
+                // translate(val, { from: 'zh-cn', to: 'en' }).then(res => {
+                //     console.log(res);
+                //     tempJson[item] = res;
+                // }).catch(err => {
+                //     console.error(err)
+                // });
+                tempJson[item] = currentItem[item];
             } else {
                 tempJson[item] = currentItem[item];
             }
@@ -366,7 +387,7 @@ function populateHeroWakeSkillCsv(herowakeskillcsv_data) {
                 case 'DescId':
                     let val = currentItem[item];
                     let name = searchValueByKey(languagecsv_populated, 'id', parseInt(val));
-                    tempJson[item] = name.EN;
+                    tempJson[item] = name[translate_language];
                     break;
                 default:
                     tempJson[item] = currentItem[item];
@@ -385,7 +406,7 @@ function populateHeroWakeCsv(herowakecsv_data) {
             switch (item) {
                 case 'wakeDesc':
                     let name = searchValueByKey(languagecsv_populated, 'id', parseInt(val));
-                    tempJson[item] = name.EN;
+                    tempJson[item] = name[translate_language];
                     break;
                 case 'wakeItem':
                 case 'wakeItemAll':
@@ -445,7 +466,7 @@ function populateGuildTaskCsv(guildtaskcsv_data) {
                     break;
                 case 'languageId':
                     let language = searchValueByKey(languagecsv_populated, 'id', parseInt(val));
-                    tempJson[item] = language.EN;
+                    tempJson[item] = language[translate_language];
                     break;
                 default:
                     tempJson[item] = currentItem[item];
@@ -528,20 +549,151 @@ function populateCollectionCsv(collectioncsv_data) {
                     let tempArray = [];
                     for (let z = 0; z < val.length; z++) {
                         let string = searchValueByKey(languagecsv_populated, 'id', parseInt(val[z]));
-                        tempArray.push(string.EN);
+                        tempArray.push(string[translate_language]);
                     }
                     tempJson[item] = tempArray;
                     break;
                 case 'name':
                 case 'desc':
                     let name = searchValueByKey(languagecsv_populated, 'id', parseInt(val));
-                    tempJson[item] = name.EN;
+                    tempJson[item] = name[translate_language];
                     break;
                 default:
                     tempJson[item] = currentItem[item];
             }
         }
         collectioncsv_populated.push(tempJson);
+    }
+}
+
+function populateFestivalTaskCsv(festivaltaskcsv_data) {
+    const grouped = festivaltaskcsv_data.reduce((acc, { FestivalTaskRow }) => {
+        const { ConnectActivityId, Describe, Need, Reward } = FestivalTaskRow;
+        const taskIcon = searchValueByKey(itemcsv_populated, 'id', parseInt(Reward[0]["System.Int32[]"][0])).iconId;
+        const taskQty = Reward[0]["System.Int32[]"][1];
+        const describeText = searchValueByKey(languagecsv_populated, 'id', parseInt(Describe))[translate_language];
+        if (!acc[ConnectActivityId]) {
+            acc[ConnectActivityId] = {};
+        }
+
+        if (!acc[ConnectActivityId][describeText]) {
+            acc[ConnectActivityId][describeText] = [];
+        }
+
+        // acc[ConnectActivityId][describeText].push({ Need, Reward });
+        acc[ConnectActivityId][describeText].push(`${Need}x  -- ${taskQty}x :${taskIcon}:`);
+        ConnectActivityId == 20240312 ? console.log(acc[ConnectActivityId][describeText]) : '';
+        return acc;
+    }, {});
+    festivaltaskcsv_populated.push(grouped);
+    // let currentEvent = 0;
+    // let currentDescribe = '';
+    // let currentJson = {};
+    // let taskReward;
+    // let rewardIcon;
+    // for (let i = 0; i < festivaltaskcsv_data.length; i++) {
+    //     currentItem = festivaltaskcsv_data[i].FestivalTaskRow;
+    //     console.log(i);
+    //     if(!taskReward){
+    //         taskReward = searchValueByKey(itemcsv_populated, 'id', parseInt(currentItem.Reward[0]["System.Int32[]"][0])).item_name;
+    //         rewardIcon = searchValueByKey(itemcsv_populated, 'id', parseInt(currentItem.Reward[0]["System.Int32[]"][0])).iconId;
+    //     } 
+    //     console.log("here");
+    //     const describeText = searchValueByKey(languagecsv_populated, 'id', parseInt(currentItem.Describe))[translate_language];
+    //     const connectactivityid = currentItem.ConnectActivityId;
+    //     const describe = currentItem.Describe;
+    //     const need = currentItem.Need;
+    //     const qty = currentItem.Reward[0]["System.Int32[]"][1];
+    //     console.log("there");
+    //     if (currentEvent != connectactivityid){
+    //         console.log("not same");
+    //         currentEvent = connectactivityid;
+    //         currentDescribe = currentItem.Describe;
+    //         currentJson[currentEvent].'id' = []; 
+    //         console.log(currentEvent, currentDescribe);
+    //         currentJson[currentEvent][`${describeText}`] = [`${need}x  -- ${qty}x :${taskIcon}:`];
+    //         console.log('fail');
+    //         uniqueEvent[currentEvent] = currentJson;
+    //     } else if (currentDescribe != describe) {
+    //         console.log("not same describe");
+    //         currentJson[currentEvent][describeText] = [`${need}x  -- ${qty}x :${taskIcon}:`];
+    //     } else {
+    //         console.log("same describe");
+    //         currentJson[currentEvent][describeText].push(`${need}x  -- ${qty}x :${taskIcon}:`);
+    //     }
+    // }
+    // festivaltaskcsv_populated.push(currentJson);
+    // console.log(currentJson);
+}
+
+// Base Csv's
+function populateTurbominesBaseCsv(turbominesbasecsv_data) {
+    for (let i = 0; i < turbominesbasecsv_data.length; i++) {
+        let tempJson = {};
+        currentItem = turbominesbasecsv_data[i].TurbominesBaseRow;
+        for (const item in currentItem) {
+            let val = currentItem[item];
+            switch (item) {
+                case 'BigReward':
+                    let tempArray = [];
+                    tempJson['IconList'] = [];
+                    tempJson['embedReady'] = [];
+                    for (let z = 0; z < val.length; z++) {
+                        let name = searchValueByKey(rewardcsv_populated, 'id', parseInt(val[z]["System.Int32[]"][1]));
+                        let qty = val[z]["System.Int32[]"][0];
+                        let string = `${qty}x ${name.reward}`;
+                        tempArray.push(string);
+                        tempJson['IconList'].push(name.reward[0][1]);
+                        tempJson['embedReady'].push(`${qty}x ${name.reward[0][1]}`);
+                    }
+                    tempJson[item] = tempArray;
+                    break;
+                case 'LotteryItem':
+                case 'PointItem':
+                    let name = searchValueByKey(itemcsv_populated, 'id', parseInt(val));
+                    tempJson[item] = [name.item_name, name.iconId];
+                    break;
+                default:
+                    tempJson[item] = currentItem[item];
+            }
+        }
+        turbominesbasecsv_populated.push(tempJson);
+    }
+}
+
+function populateMonopolyBaseCsv(monopolybasecsv_data) {
+    for (let i = 0; i < monopolybasecsv_data.length; i++) {
+        let tempJson = {};
+        currentItem = monopolybasecsv_data[i].MonopolyBaseRow;
+        for (const item in currentItem) {
+            let val = currentItem[item];
+            switch (item) {
+                case 'BigReward':
+                    let tempArray = [];
+                    tempJson['IconList'] = [];
+                    tempJson['embedReady'] = [];
+                    for (let z = 0; z < val.length; z++) {
+                        let name = searchValueByKey(rewardcsv_populated, 'id', parseInt(val[z]["System.Int32[]"][1]));
+                        let qty = val[z]["System.Int32[]"][0];
+                        let string = `${qty}x ${name.reward}`;
+                        tempArray.push(string);
+                        tempJson['IconList'].push(name.reward[0][1]);
+                        tempJson['embedReady'].push(`${qty}x ${name.reward[0][1]}`);
+                    }
+                    tempJson[item] = tempArray;
+                    
+                    break;
+                case 'DiceItem':
+                case 'MagicDicItem':
+                case 'StarItem':
+                    let name = searchValueByKey(itemcsv_populated, 'id', parseInt(val));
+                    tempJson[item] = [name.item_name, name.iconId];
+                    break;
+                default:
+                    tempJson[item] = currentItem[item];
+            }
+        }
+        monopolybasecsv_populated.push(tempJson);
     }
 }
 //#endregion
@@ -560,11 +712,11 @@ const master_object = {
     'guildBossRankCsv': [path.resolve(__dirname, './csvs/guildBossRankCsv.json'), ['RewardCsv'], populateGuildBossRankCsv, guildbossrankcsv_populated],
     'guildBossCsv': [path.resolve(__dirname, './csvs/guildBossCsv.json'), ['RewardCsv'], populateGuildBossCsv, guildbosscsv_populated],
     'EchoRankRewardCsv': [path.resolve(__dirname, './csvs/EchoRankRewardCsv.json'), ['EchoBattleSubsection2Csv'], populateEchoRankRewardCsv, echorankrewardcsv_populated],
-    'EchoBattleSubsection2Csv': [path.resolve(__dirname, './csvs/EchoBattleSubsection2Csv.json'), ['EchoBattleSubsection2Csv'], populateEchoBattleSubsection2Csv, echobattlesubsection2csv_populated]
-
+    'EchoBattleSubsection2Csv': [path.resolve(__dirname, './csvs/EchoBattleSubsection2Csv.json'), ['EchoBattleSubsection2Csv'], populateEchoBattleSubsection2Csv, echobattlesubsection2csv_populated],
+    'TurbominesBaseCsv': [path.resolve(__dirname, './csvs/TurbominesBaseCsv.json'), ['ItemCsv', 'RewardCsv'], populateTurbominesBaseCsv, turbominesbasecsv_populated],
+    'MonopolyBaseCsv': [path.resolve(__dirname, './csvs/MonopolyBaseCsv.json'), ['ItemCsv', 'RewardCsv'], populateMonopolyBaseCsv, monopolybasecsv_populated],
+    'FestivalTaskCsv': [path.resolve(__dirname, './csvs/FestivalTaskCsv.json'), ['ItemCsv', 'RewardCsv'], populateFestivalTaskCsv, festivaltaskcsv_populated]
 };
-
-// writeFile(rewardcsv_populated);
 
 // Menu options
 const menuOptions = [
