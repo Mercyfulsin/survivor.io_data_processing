@@ -552,14 +552,14 @@ function populateCollectionCsv(collectioncsv_data) {
                     let tempArray = [];
                     for (let z = 0; z < val.length; z++) {
                         let string = searchValueByKey(languagecsv_populated, 'id', parseInt(val[z]));
-                        tempArray.push(string[translate_language]);
+                        string ? tempArray.push(string[translate_language]) : tempArray.push(val[z]);
                     }
-                    tempJson[item] = tempArray;
+                    tempJson[item] = tempArray
                     break;
                 case 'name':
                 case 'desc':
                     let name = searchValueByKey(languagecsv_populated, 'id', parseInt(val));
-                    tempJson[item] = name[translate_language];
+                    name ? tempJson[item] = name[translate_language] : tempJson[item] = val;
                     break;
                 default:
                     tempJson[item] = currentItem[item];
@@ -585,7 +585,6 @@ function populateFestivalTaskCsv(festivaltaskcsv_data) {
 
         // acc[ConnectActivityId][describeText].push({ Need, Reward });
         acc[ConnectActivityId][describeText].push(`${Need}x  -- ${taskQty}x :${taskIcon}:`);
-        ConnectActivityId == 20240312 ? console.log(acc[ConnectActivityId][describeText]) : '';
         return acc;
     }, {});
     festivaltaskcsv_populated.push(grouped);
@@ -648,8 +647,8 @@ function populateFestivalGiftRewardCsv(festivalgiftrewardcsv_data) {
             let val = currentItem[item];
             switch (item) {
                 case 'ShopId':
-                    let price = searchValueByKey(itemcsv_populated, 'ID', parseInt(val)).Price;
-                    tempJson[item] = price;
+                    let price = searchValueByKey(itemcsv_populated, 'ID', parseInt(val));
+                    price ? tempJson[item] = price.price : tempJson[item] = val;
                     break;
                 case 'Reward':
                     let tempArray = [];
