@@ -29,6 +29,9 @@ let guildbosscsv_populated = [];
 let turbominesbasecsv_populated = [];
 let monopolybasecsv_populated = [];
 let festivaltaskcsv_populated = [];
+let shopcsv_populated = [];
+let festivalgiftrewardcsv_populated = [];
+let festivalgiftcsv_populated = [];
 
 //#region Tool Functions
 const checkSubset = (parentArray, subsetArray) => {
@@ -626,6 +629,72 @@ function populateFestivalTaskCsv(festivaltaskcsv_data) {
     // console.log(currentJson);
 }
 
+function populateShopCsv(shopcsv_data) {
+    for (let i = 0; i < shopcsv_data.length; i++) {
+        let tempJson = {};
+        currentItem = shopcsv_data[i].ShopRow;
+        for (const item in currentItem) {
+            tempJson[item] = currentItem[item];
+        }
+        shopcsv_populated.push(tempJson);
+    }
+}
+
+function populateFestivalGiftRewardCsv(festivalgiftrewardcsv_data) {
+    for (let i = 0; i < festivalgiftrewardcsv_data.length; i++) {
+        let tempJson = {};
+        currentItem = festivalgiftrewardcsv_data[i].FestivalGiftRewardRow;
+        for (const item in currentItem) {
+            let val = currentItem[item];
+            switch (item) {
+                case 'ShopId':
+                    let price = searchValueByKey(itemcsv_populated, 'ID', parseInt(val)).Price;
+                    tempJson[item] = price;
+                    break;
+                case 'Reward':
+                    let tempArray = [];
+                    for (let z = 0; z < val.length; z++) {
+                        let name = searchValueByKey(itemcsv_populated, 'id', parseInt(val[z]["System.Int32[]"][0]));
+                        let qty = val[z]["System.Int32[]"][1];
+                        let string = `${qty}x ${name.item_name}`;
+                        tempArray.push(string);
+                    }
+                    tempJson[item] = tempArray;
+                    break;
+                default:
+                    tempJson[item] = currentItem[item];
+            }
+        }
+        festivalgiftrewardcsv_populated.push(tempJson);
+    }
+
+}
+
+function populateFestivalGiftCsv(festivalgiftcsv_data) {
+    for (let i = 0; i < festivalgiftcsv_data.length; i++) {
+        let tempJson = {};
+        currentItem = festivalgiftcsv_data[i].FestivalGiftRow;
+        for (const item in currentItem) {
+            let val = currentItem[item];
+            switch (item) {
+                case 'GiftRewardId':
+                case 'GiftRewardId_CN':
+                    let tempArray = [];
+                    for (let z = 0; z < val.length; z++) {
+                        let reward = searchValueByKey(festivalgiftrewardcsv_populated, 'ID', parseInt(val[z]));
+                        tempArray.push(reward);
+                    }
+                    tempJson[item] = tempArray;
+                    break;
+                default:
+                    tempJson[item] = currentItem[item];
+            }
+        }
+        festivalgiftcsv_populated.push(tempJson);
+    }
+
+}
+
 // Base Csv's
 function populateTurbominesBaseCsv(turbominesbasecsv_data) {
     for (let i = 0; i < turbominesbasecsv_data.length; i++) {
@@ -681,7 +750,7 @@ function populateMonopolyBaseCsv(monopolybasecsv_data) {
                         tempJson['embedReady'].push(`${qty}x ${name.reward[0][1]}`);
                     }
                     tempJson[item] = tempArray;
-                    
+
                     break;
                 case 'DiceItem':
                 case 'MagicDicItem':
@@ -715,7 +784,10 @@ const master_object = {
     'EchoBattleSubsection2Csv': [path.resolve(__dirname, './csvs/EchoBattleSubsection2Csv.json'), ['EchoBattleSubsection2Csv'], populateEchoBattleSubsection2Csv, echobattlesubsection2csv_populated],
     'TurbominesBaseCsv': [path.resolve(__dirname, './csvs/TurbominesBaseCsv.json'), ['ItemCsv', 'RewardCsv'], populateTurbominesBaseCsv, turbominesbasecsv_populated],
     'MonopolyBaseCsv': [path.resolve(__dirname, './csvs/MonopolyBaseCsv.json'), ['ItemCsv', 'RewardCsv'], populateMonopolyBaseCsv, monopolybasecsv_populated],
-    'FestivalTaskCsv': [path.resolve(__dirname, './csvs/FestivalTaskCsv.json'), ['ItemCsv', 'RewardCsv'], populateFestivalTaskCsv, festivaltaskcsv_populated]
+    'FestivalTaskCsv': [path.resolve(__dirname, './csvs/FestivalTaskCsv.json'), ['ItemCsv', 'RewardCsv'], populateFestivalTaskCsv, festivaltaskcsv_populated],
+    'ShopCsv': [path.resolve(__dirname, './csvs/ShopCsv.json'), ['ShopCsv'], populateShopCsv, shopcsv_populated],
+    'FestivalGiftRewardCsv': [path.resolve(__dirname, './csvs/FestivalGiftRewardCsv.json'), ['ItemCsv', 'ShopCsv'], populateFestivalGiftRewardCsv, festivalgiftrewardcsv_populated],
+    'FestivalGiftCsv': [path.resolve(__dirname, './csvs/FestivalGiftCsv.json'), ['FestivalGiftRewardCsv'], populateFestivalGiftCsv, festivalgiftcsv_populated]
 };
 
 // Menu options
